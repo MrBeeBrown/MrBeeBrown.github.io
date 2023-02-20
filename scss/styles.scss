@@ -1,9 +1,8 @@
-@use "reset";
-@use "variables";
-@use "colors";
-@use "typography";
-@use "fonts";
-@use "buttons";
+@use "/scss/base/reset";
+@use "/scss/base/colors";
+@use "/scss/base/fonts";
+@use "/scss/base/typography";
+@use "/scss/utils/variables";
 
 h1,
 h2 {
