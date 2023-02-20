@@ -1,10 +1,10 @@
-@use "/scss/base/reset";
-@use "/scss/base/colors";
-@use "/scss/base/fonts";
-@use "/scss/base/typography";
-@use "/scss/utils/variables";
+@use "/scss/base" as *;
+@use "/scss/utils/variables" as *;
+@use "/scss/components/buttons" as *;
+@use "/scss/layout/footer" as *;
+@use "/scss/layout/header" as *;
 
 h1,
 h2 {
-  font-family: map-get($fonts, title-font);
+  font-family: $title-font;
 }
