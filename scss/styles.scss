@@ -1,10 +1,11 @@
 @use "reset";
 @use "variables";
+@use "colors";
 @use "typography";
 @use "fonts";
 @use "buttons";
 
 h1,
 h2 {
-  font-family: $title-font;
+  font-family: map-get($fonts, title-font);
 }
