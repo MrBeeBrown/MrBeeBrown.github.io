@@ -1,3 +1,10 @@
-$primaire: #9356dc;
-$secondaire: #ff79da;
-$tertiaire: #99e2d0;
+@use "reset";
+@use "variables";
+@use "typography";
+@use "fonts";
+@use "buttons";
+
+h1,
+h2 {
+  font-family: $title-font;
+}
