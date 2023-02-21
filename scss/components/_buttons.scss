@@ -1,0 +1,11 @@
+@use "../base/colors" as colors;
+
+.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  background-image: colors.$gradient;
+  color: colors.$white-font;
+  box-shadow: 5px 5px 10px colors.$gray-color;
+}

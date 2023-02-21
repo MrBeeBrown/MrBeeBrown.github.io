@@ -17,4 +17,271 @@ a,
 a:visited,
 a:active {
   text-decoration: none;
+}
+
+.btn {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(#ff79da, #9356dc);
+  color: #fff;
+  -webkit-box-shadow: 5px 5px 10px rgb(146, 146, 146);
+          box-shadow: 5px 5px 10px rgb(146, 146, 146);
+}
+
+header {
+  -webkit-box-shadow: 5px 5px 5px #acacac;
+          box-shadow: 5px 5px 5px #acacac;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resto {
+  position: relative;
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f3f3f3;
+}
+.resto__location {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dfdfdf;
+}
+.resto__location p {
+  font-family: "Roboto";
+}
+.resto__headline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+}
+.resto__headline__sub {
+  font-family: "Roboto";
+  font-size: 1.3rem;
+}
+
+.restaurant {
+  background-color: #f3f3f3;
+}
+.restaurant__1 {
+  max-width: 30rem;
+}
+.restaurant__1__img img {
+  width: 100%;
+  max-width: 30rem;
+  max-height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.restaurant__1__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+.restaurant__2 {
+  max-width: 30rem;
+}
+.restaurant__2__img img {
+  width: 100%;
+  max-width: 30rem;
+  max-height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.restaurant__2__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+.restaurant__3 {
+  max-width: 30rem;
+}
+.restaurant__3__img img {
+  width: 100%;
+  max-width: 30rem;
+  max-height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.restaurant__3__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+.restaurant__4 {
+  max-width: 30rem;
+}
+.restaurant__4__img img {
+  width: 100%;
+  max-width: 30rem;
+  max-height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.restaurant__4__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  font-family: "Shrikhand";
+}
+
+h3 {
+  font-family: "Roboto";
+}
+
+footer {
+  padding-inline: 1rem;
+  background-color: #464646;
+}
+footer .logo {
+  padding: 1rem 0.5rem;
+  font-family: "Shrikhand";
+  color: #fff;
+  font-size: 1.5rem;
+}
+footer .submit__restaurant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "Roboto";
+}
+footer .become__partner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "Roboto";
+}
+footer .legal__notice {
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "Roboto";
+}
+footer .contact {
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "Roboto";
 }/*# sourceMappingURL=styles.css.map */

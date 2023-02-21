@@ -1,13 +1,91 @@
-@use "/scss/base/reset" as *;
-@use "/scss/base/colors" as *;
-@use "/scss/base/fonts" as *;
-@use "/scss/base/typography" as *;
-@use "/scss/utils/variables" as *;
-@use "/scss/components/buttons" as *;
-@use "/scss/layout/footer" as *;
-@use "/scss/layout/header" as *;
+@use "./base" as *;
+@use "./utils" as *;
+@use "./components" as *;
+@use "./layout" as *;
+
+header {
+  box-shadow: 5px 5px 5px lighten($color: $gray-color, $amount: 10);
+  height: 5rem;
+  @include flex-center(row);
+}
+
+.resto {
+  position: relative;
+  height: 20rem;
+  @include flex-center(column);
+  background-color: lighten($color: $gray-color, $amount: 38);
+  &__location {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 1rem;
+    @include flex-center(row);
+    background-color: lighten($color: $gray-color, $amount: 30);
+    p {
+      font-family: $text-font;
+    }
+  }
+  &__headline {
+    @include flex-center(row);
+    font-size: 1.5rem;
+    &__sub {
+      font-family: $text-font;
+      font-size: 1.3rem;
+    }
+  }
+}
+
+.restaurant {
+  background-color: lighten($color: $gray-color, $amount: 38);
+  @for $i from 1 through 4 {
+    &__#{$i} {
+      max-width: 30rem;
+      &__img {
+        img {
+          width: 100%;
+          max-width: 30rem;
+          max-height: 15rem;
+          object-fit: cover;
+        }
+      }
+      &__header {
+        @include flex-between(row);
+        padding: 1rem;
+      }
+    }
+  }
+}
 
 h1,
 h2 {
   font-family: $title-font;
+}
+
+h3 {
+  font-family: $text-font;
+}
+
+footer {
+  padding-inline: 1rem;
+  background-color: darken($color: $gray-color, $amount: 30);
+  .logo {
+    padding: 1rem 0.5rem;
+    font-family: $title-font;
+    color: $white-font;
+    font-size: 1.5rem;
+  }
+  .submit__restaurant {
+    @include flex-left(row);
+    @include footer-text;
+  }
+  .become__partner {
+    @include flex-left(row);
+    @include footer-text;
+  }
+  .legal__notice {
+    @include footer-text;
+  }
+  .contact {
+    @include footer-text;
+  }
 }

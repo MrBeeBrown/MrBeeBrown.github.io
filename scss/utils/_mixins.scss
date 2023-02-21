@@ -1,0 +1,29 @@
+@use "../base/fonts" as fonts;
+@use "../base/colors" as colors;
+
+@mixin flex-center($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-left($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: left;
+  align-items: center;
+}
+
+@mixin flex-between($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin footer-text {
+  padding: 0.5rem;
+  color: colors.$white-font;
+  font-family: fonts.$text-font;
+}
