@@ -1,0 +1,35 @@
+@use "../base/colors" as colors;
+@use "../base/fonts" as fonts;
+@use "../utils/mixins" as mixins;
+
+footer {
+  padding-inline: 1rem;
+  padding-bottom: 2rem;
+  background-color: colors.$gray-footer;
+  .logo {
+    padding: 1rem 0.5rem;
+    font-family: fonts.$title-font;
+    color: colors.$white-font;
+    font-size: 1.2rem;
+  }
+  .submit__restaurant {
+    @include mixins.flex-left(row);
+    @include mixins.footer-text;
+    p {
+      margin-left: 1rem;
+    }
+  }
+  .become__partner {
+    @include mixins.flex-left(row);
+    @include mixins.footer-text;
+    p {
+      margin-left: 0.65rem;
+    }
+  }
+  .legal__notice {
+    @include mixins.footer-text;
+  }
+  .contact {
+    @include mixins.footer-text;
+  }
+}

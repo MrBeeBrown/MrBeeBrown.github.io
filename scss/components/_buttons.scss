@@ -1,11 +1,26 @@
 @use "../base/colors" as colors;
+@use "../base/fonts" as fonts;
 
-.btn {
+.btn__resto {
   border: none;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 0.9rem;
   font-size: 1rem;
+  font-family: fonts.$text-font;
   background-image: colors.$gradient;
   color: colors.$white-font;
-  box-shadow: 5px 5px 10px colors.$gray-color;
+  box-shadow: 0px 5px 15px -3px #000000;
+}
+.btn__new {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 6rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: colors.$third-color;
+  color: darken($color: colors.$third-color, $amount: 40);
+  font-family: fonts.$text-font;
+  font-weight: 700;
 }
