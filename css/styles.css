@@ -88,6 +88,7 @@ a:active {
   z-index: 1;
   -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
 }
 .header p {
   font-family: "Shrikhand";
@@ -112,6 +113,7 @@ a:active {
   z-index: 1;
   -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
   position: relative;
   top: 0;
 }
@@ -223,8 +225,16 @@ footer .contact {
           align-items: center;
   position: relative;
 }
+.resto__1 {
+  background-image: url(../assets/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
 .resto__1 img {
   width: 100%;
+  max-width: 50rem;
   min-width: 15rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -301,7 +311,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__1__menu__entrees .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__1__menu__entrees__cartes {
   display: -webkit-box;
@@ -320,6 +331,9 @@ footer .contact {
   background-color: #fff;
   padding: 1rem;
   width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__1__menu__plats {
   display: -webkit-box;
@@ -342,7 +356,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__1__menu__plats .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__1__menu__plats__cartes {
   display: -webkit-box;
@@ -361,6 +376,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__1__menu__desserts {
   display: -webkit-box;
@@ -383,7 +401,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__1__menu__desserts .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__1__menu__desserts__cartes {
   display: -webkit-box;
@@ -402,6 +421,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__2 {
   display: -webkit-box;
@@ -419,8 +441,16 @@ footer .contact {
           align-items: center;
   position: relative;
 }
+.resto__2 {
+  background-image: url(../assets/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
 .resto__2 img {
   width: 100%;
+  max-width: 50rem;
   min-width: 15rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -497,7 +527,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__2__menu__entrees .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__2__menu__entrees__cartes {
   display: -webkit-box;
@@ -516,6 +547,9 @@ footer .contact {
   background-color: #fff;
   padding: 1rem;
   width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__2__menu__plats {
   display: -webkit-box;
@@ -538,7 +572,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__2__menu__plats .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__2__menu__plats__cartes {
   display: -webkit-box;
@@ -557,6 +592,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__2__menu__desserts {
   display: -webkit-box;
@@ -579,7 +617,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__2__menu__desserts .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__2__menu__desserts__cartes {
   display: -webkit-box;
@@ -598,6 +637,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__3 {
   display: -webkit-box;
@@ -615,8 +657,16 @@ footer .contact {
           align-items: center;
   position: relative;
 }
+.resto__3 {
+  background-image: url(../assets/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
 .resto__3 img {
   width: 100%;
+  max-width: 50rem;
   min-width: 15rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -693,7 +743,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__3__menu__entrees .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__3__menu__entrees__cartes {
   display: -webkit-box;
@@ -712,6 +763,9 @@ footer .contact {
   background-color: #fff;
   padding: 1rem;
   width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__3__menu__plats {
   display: -webkit-box;
@@ -734,7 +788,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__3__menu__plats .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__3__menu__plats__cartes {
   display: -webkit-box;
@@ -753,6 +808,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__3__menu__desserts {
   display: -webkit-box;
@@ -775,7 +833,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__3__menu__desserts .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__3__menu__desserts__cartes {
   display: -webkit-box;
@@ -794,6 +853,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__4 {
   display: -webkit-box;
@@ -811,8 +873,16 @@ footer .contact {
           align-items: center;
   position: relative;
 }
+.resto__4 {
+  background-image: url(../assets/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
 .resto__4 img {
   width: 100%;
+  max-width: 50rem;
   min-width: 15rem;
   -o-object-fit: cover;
      object-fit: cover;
@@ -889,7 +959,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__4__menu__entrees .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__4__menu__entrees__cartes {
   display: -webkit-box;
@@ -908,6 +979,9 @@ footer .contact {
   background-color: #fff;
   padding: 1rem;
   width: 100%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__4__menu__plats {
   display: -webkit-box;
@@ -930,7 +1004,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__4__menu__plats .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__4__menu__plats__cartes {
   display: -webkit-box;
@@ -949,6 +1024,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__4__menu__desserts {
   display: -webkit-box;
@@ -971,7 +1049,8 @@ footer .contact {
   padding-bottom: 2rem;
 }
 .resto__4__menu__desserts .title {
-  border-bottom: 2px solid #99e2d0;
+  border-bottom: 4px solid #99e2d0;
+  text-transform: uppercase;
 }
 .resto__4__menu__desserts__cartes {
   display: -webkit-box;
@@ -990,6 +1069,9 @@ footer .contact {
   width: 100%;
   background-color: #fff;
   padding: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
 }
 .resto__location {
   position: absolute;
@@ -1065,6 +1147,14 @@ footer .contact {
   padding: 1rem;
 }
 
+.bold-menu {
+  font-weight: 700;
+}
+
+.thin-menu {
+  font-size: 0.9rem;
+}
+
 .howto {
   padding: 3rem 1rem;
 }
@@ -1090,7 +1180,7 @@ footer .contact {
 }
 .howto__restaurant {
   position: relative;
-  width: 70%;
+  width: 95%;
   min-width: 15rem;
   max-width: 25rem;
   height: 4.5rem;
@@ -1138,7 +1228,7 @@ footer .contact {
 }
 .howto__restaurant__icone {
   color: #727272;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1152,10 +1242,12 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 30%;
 }
 .howto__restaurant__texte {
   font-family: "Roboto";
   font-weight: 700;
+  width: 70%;
 }
 .howto__restaurant:hover {
   background-color: #f2eafb;
@@ -1165,7 +1257,7 @@ footer .contact {
 }
 .howto__menu {
   position: relative;
-  width: 70%;
+  width: 95%;
   min-width: 15rem;
   max-width: 25rem;
   height: 4.5rem;
@@ -1213,7 +1305,7 @@ footer .contact {
 }
 .howto__menu__icone {
   color: #727272;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1227,10 +1319,12 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 30%;
 }
 .howto__menu__texte {
   font-family: "Roboto";
   font-weight: 700;
+  width: 70%;
 }
 .howto__menu:hover {
   background-color: #f2eafb;
@@ -1240,7 +1334,7 @@ footer .contact {
 }
 .howto__eat {
   position: relative;
-  width: 70%;
+  width: 95%;
   min-width: 15rem;
   max-width: 25rem;
   height: 4.5rem;
@@ -1288,7 +1382,7 @@ footer .contact {
 }
 .howto__eat__icone {
   color: #727272;
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1302,10 +1396,12 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 30%;
 }
 .howto__eat__texte {
   font-family: "Roboto";
   font-weight: 700;
+  width: 70%;
 }
 .howto__eat:hover {
   background-color: #f2eafb;
@@ -1340,6 +1436,8 @@ footer .contact {
 }
 .restaurant__content a {
   width: 100%;
+  min-width: 15rem;
+  max-width: 28rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1394,9 +1492,11 @@ footer .contact {
 }
 .restaurant__1__name h3 {
   font-family: "Roboto";
+  font-size: 1.075rem;
 }
 .restaurant__1__place p {
   font-family: "Roboto";
+  font-size: 0.9rem;
 }
 .restaurant__1__like img:hover {
   color: linear-gradient(175deg, #ff79da, #9356dc);
@@ -1441,9 +1541,11 @@ footer .contact {
 }
 .restaurant__2__name h3 {
   font-family: "Roboto";
+  font-size: 1.075rem;
 }
 .restaurant__2__place p {
   font-family: "Roboto";
+  font-size: 0.9rem;
 }
 .restaurant__2__like img:hover {
   color: linear-gradient(175deg, #ff79da, #9356dc);
@@ -1488,9 +1590,11 @@ footer .contact {
 }
 .restaurant__3__name h3 {
   font-family: "Roboto";
+  font-size: 1.075rem;
 }
 .restaurant__3__place p {
   font-family: "Roboto";
+  font-size: 0.9rem;
 }
 .restaurant__3__like img:hover {
   color: linear-gradient(175deg, #ff79da, #9356dc);
@@ -1535,9 +1639,11 @@ footer .contact {
 }
 .restaurant__4__name h3 {
   font-family: "Roboto";
+  font-size: 1.075rem;
 }
 .restaurant__4__place p {
   font-family: "Roboto";
+  font-size: 0.9rem;
 }
 .restaurant__4__like img:hover {
   color: linear-gradient(175deg, #ff79da, #9356dc);

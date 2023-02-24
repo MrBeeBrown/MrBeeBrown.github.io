@@ -12,8 +12,45 @@
     &__#{$i} {
       @include flex-center(column);
       position: relative;
+      @if $i == 1 {
+        & {
+          background-image: url(../assets/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 350px;
+        }
+      }
+      @if $i == 2 {
+        & {
+          background-image: url(../assets/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 350px;
+        }
+      }
+      @if $i == 3 {
+        & {
+          background-image: url(../assets/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 350px;
+        }
+      }
+      @if $i == 4 {
+        & {
+          background-image: url(../assets/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          height: 350px;
+        }
+      }
       img {
         width: 100%;
+        max-width: 50rem;
         min-width: 15rem;
         object-fit: cover;
       }
@@ -51,13 +88,16 @@
           max-width: 28rem;
           padding-bottom: 2rem;
           .title {
-            border-bottom: 2px solid $third-color;
+            border-bottom: 4px solid $third-color;
+            text-transform: uppercase;
           }
           &__cartes {
             @include flex-between(row);
             background-color: $white-font;
             padding: 1rem;
             width: 100%;
+            border-radius: 1rem;
+            box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           }
         }
         &__plats {
@@ -68,13 +108,16 @@
           max-width: 28rem;
           padding-bottom: 2rem;
           .title {
-            border-bottom: 2px solid $third-color;
+            border-bottom: 4px solid $third-color;
+            text-transform: uppercase;
           }
           &__cartes {
             @include flex-between(row);
             width: 100%;
             background-color: $white-font;
             padding: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           }
         }
         &__desserts {
@@ -85,13 +128,16 @@
           max-width: 28rem;
           padding-bottom: 2rem;
           .title {
-            border-bottom: 2px solid $third-color;
+            border-bottom: 4px solid $third-color;
+            text-transform: uppercase;
           }
           &__cartes {
             @include flex-between(row);
             width: 100%;
             background-color: $white-font;
             padding: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           }
         }
       }
@@ -136,6 +182,14 @@
   }
 }
 
+.bold-menu {
+  font-weight: 700;
+}
+
+.thin-menu {
+  font-size: 0.9rem;
+}
+
 .howto {
   padding: 3rem 1rem;
   h2 {
@@ -155,12 +209,14 @@
     }
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
-      padding: 0 1rem;
+      /* padding: 0 1rem; */
       @include flex-center(row);
+      width: 30%;
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
+      width: 70%;
     }
     &:hover {
       background-color: lighten($color: $primary-color, $amount: 35);
@@ -178,12 +234,14 @@
     }
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
-      padding: 0 1rem;
+      /* padding: 0 1rem; */
       @include flex-center(row);
+      width: 30%;
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
+      width: 70%;
     }
     &:hover {
       background-color: lighten($color: $primary-color, $amount: 35);
@@ -201,12 +259,14 @@
     }
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
-      padding: 0 1rem;
+      /* padding: 0 1rem; */
       @include flex-center(row);
+      width: 30%;
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
+      width: 70%;
     }
     &:hover {
       background-color: lighten($color: $primary-color, $amount: 35);
@@ -229,6 +289,8 @@
     padding: 1rem 0;
     a {
       width: 100%;
+      min-width: 15rem;
+      max-width: 28rem;
       @include flex-center(column);
     }
   }
@@ -259,11 +321,13 @@
       &__name {
         h3 {
           font-family: $text-font;
+          font-size: 1.075rem;
         }
       }
       &__place {
         p {
           font-family: $text-font;
+          font-size: 0.9rem;
         }
       }
       &__like {
