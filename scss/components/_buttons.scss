@@ -4,12 +4,16 @@
 .btn__resto {
   border: none;
   border-radius: 2rem;
-  padding: 0.9rem;
+  padding: 1rem 1.5rem;
   font-size: 1rem;
   font-family: fonts.$text-font;
   background-image: colors.$gradient;
   color: colors.$white-font;
-  box-shadow: 0px 5px 15px -3px #000000;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+  &:hover {
+    background-image: colors.$gradient-light;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  }
 }
 .btn__new {
   position: absolute;
@@ -23,4 +27,20 @@
   color: darken($color: colors.$third-color, $amount: 40);
   font-family: fonts.$text-font;
   font-weight: 700;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn__command {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  font-family: fonts.$text-font;
+  background-image: colors.$gradient;
+  color: colors.$white-font;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
+  &:hover {
+    background-image: colors.$gradient-light;
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
+  }
 }

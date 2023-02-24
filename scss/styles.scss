@@ -8,6 +8,95 @@
   height: 22rem;
   @include flex-center(column);
   background-color: $gray-background;
+  @for $i from 1 through 4 {
+    &__#{$i} {
+      @include flex-center(column);
+      position: relative;
+      img {
+        width: 100%;
+        min-width: 15rem;
+        object-fit: cover;
+      }
+      &__title {
+        position: absolute;
+        bottom: 0;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+        background-color: $gray-background;
+        height: 5rem;
+        width: 100%;
+        min-width: 15rem;
+        z-index: 1;
+        &__name {
+          @include flex-center(row);
+          gap: 5rem;
+          height: 5rem;
+          p {
+            font-family: $text-font;
+            font-size: 1.2rem;
+            font-weight: 700;
+          }
+        }
+      }
+      &__menu {
+        @include flex-center(column);
+        padding: 3rem 1rem;
+        background-color: $gray-background;
+        font-family: $text-font;
+        &__entrees {
+          @include flex-center(column);
+          gap: 2rem;
+          width: 100%;
+          min-width: 15rem;
+          max-width: 28rem;
+          padding-bottom: 2rem;
+          .title {
+            border-bottom: 2px solid $third-color;
+          }
+          &__cartes {
+            @include flex-between(row);
+            background-color: $white-font;
+            padding: 1rem;
+            width: 100%;
+          }
+        }
+        &__plats {
+          @include flex-center(column);
+          gap: 2rem;
+          width: 100%;
+          min-width: 15rem;
+          max-width: 28rem;
+          padding-bottom: 2rem;
+          .title {
+            border-bottom: 2px solid $third-color;
+          }
+          &__cartes {
+            @include flex-between(row);
+            width: 100%;
+            background-color: $white-font;
+            padding: 1rem;
+          }
+        }
+        &__desserts {
+          @include flex-center(column);
+          gap: 2rem;
+          width: 100%;
+          min-width: 15rem;
+          max-width: 28rem;
+          padding-bottom: 2rem;
+          .title {
+            border-bottom: 2px solid $third-color;
+          }
+          &__cartes {
+            @include flex-between(row);
+            width: 100%;
+            background-color: $white-font;
+            padding: 1rem;
+          }
+        }
+      }
+    }
+  }
   &__location {
     position: absolute;
     top: 0;
@@ -15,6 +104,8 @@
     padding: 1rem;
     @include flex-center(row);
     background-color: $gray-header;
+    font-size: 0.9rem;
+    color: lighten($color: $black-font, $amount: 30);
     p {
       font-family: $text-font;
       font-weight: 700;
@@ -34,8 +125,9 @@
     &__sub {
       @include flex-center(row);
       font-family: $text-font;
-      font-size: 1.1rem;
+      font-size: 1rem;
       text-align: center;
+      color: lighten($color: $black-font, $amount: 30);
       padding: 1rem;
     }
   }
@@ -55,93 +147,72 @@
     gap: 2rem;
   }
   &__restaurant {
-    position: relative;
-    width: 60%;
-    min-width: 15rem;
-    max-width: 21rem;
-    height: 5rem;
-    background-color: $gray-background;
-    border-radius: 1.5rem;
+    @include restaurant;
     @include flex-center(row);
     &__number {
-      font-family: $text-font;
-      color: $white-font;
-      font-weight: 700;
-      background-color: $primary-color;
-      width: 1.5rem;
-      height: 1.5rem;
-      padding: 1rem;
-      border-radius: 50%;
-      position: absolute;
-      right: 95%;
+      @include number;
+      @include flex-center(row);
     }
     &__icone {
-      position: absolute;
-      right: 88%;
+      color: lighten($color: $gray-footer, $amount: 20);
+      padding: 0 1rem;
+      @include flex-center(row);
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
+    }
+    &:hover {
+      background-color: lighten($color: $primary-color, $amount: 35);
+      .howto__restaurant__icone {
+        color: $primary-color;
+      }
     }
   }
   &__menu {
-    position: relative;
-    width: 60%;
-    min-width: 15rem;
-    max-width: 21rem;
-    height: 5rem;
-    background-color: $gray-background;
-    border-radius: 1.5rem;
+    @include restaurant;
     @include flex-center(row);
     &__number {
-      font-family: $text-font;
-      color: $white-font;
-      font-weight: 700;
-      background-color: $primary-color;
-      width: 1.5rem;
-      height: 1.5rem;
-      padding: 1rem;
-      border-radius: 50%;
-      position: absolute;
-      right: 95%;
+      @include number;
+      @include flex-center(row);
     }
     &__icone {
-      position: absolute;
-      right: 88%;
+      color: lighten($color: $gray-footer, $amount: 20);
+      padding: 0 1rem;
+      @include flex-center(row);
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
+    }
+    &:hover {
+      background-color: lighten($color: $primary-color, $amount: 35);
+      .howto__menu__icone {
+        color: $primary-color;
+      }
     }
   }
   &__eat {
-    position: relative;
-    width: 60%;
-    min-width: 15rem;
-    max-width: 21rem;
-    height: 5rem;
-    background-color: $gray-background;
-    border-radius: 1.5rem;
+    @include restaurant;
     @include flex-center(row);
     &__number {
-      font-family: $text-font;
-      color: $white-font;
-      font-weight: 700;
-      background-color: $primary-color;
-      width: 1.5rem;
-      height: 1.5rem;
-      padding: 1rem;
-      border-radius: 50%;
-      position: absolute;
-      right: 95%;
+      @include number;
+      @include flex-center(row);
     }
     &__icone {
-      position: absolute;
-      right: 88%;
+      color: lighten($color: $gray-footer, $amount: 20);
+      padding: 0 1rem;
+      @include flex-center(row);
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
+    }
+    &:hover {
+      background-color: lighten($color: $primary-color, $amount: 35);
+      .howto__eat__icone {
+        color: $primary-color;
+      }
     }
   }
 }
@@ -156,14 +227,18 @@
     @include flex-center(column);
     gap: 2rem;
     padding: 1rem 0;
+    a {
+      width: 100%;
+      @include flex-center(column);
+    }
   }
   @for $i from 1 through 4 {
     &__#{$i} {
       position: relative;
-      height: 17rem;
+      height: 15rem;
       width: 100%;
       min-width: 15rem;
-      max-width: 25rem;
+      max-width: 28rem;
       border-radius: 1rem;
       box-shadow: 0px 15px 20px 3px rgba(0, 0, 0, 0.27);
       &__img {
@@ -189,6 +264,13 @@
       &__place {
         p {
           font-family: $text-font;
+        }
+      }
+      &__like {
+        img {
+          &:hover {
+            color: $gradient;
+          }
         }
       }
     }

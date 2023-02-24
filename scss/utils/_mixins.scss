@@ -27,3 +27,27 @@
   color: colors.$white-font;
   font-family: fonts.$text-font;
 }
+
+@mixin number {
+  font-family: fonts.$text-font;
+  color: colors.$white-font;
+  font-weight: 700;
+  font-size: 0.8rem;
+  background-color: colors.$primary-color;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 95%;
+}
+
+@mixin restaurant {
+  position: relative;
+  width: 70%;
+  min-width: 15rem;
+  max-width: 25rem;
+  height: 4.5rem;
+  background-color: colors.$gray-background;
+  border-radius: 1.5rem;
+}
