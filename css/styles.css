@@ -3470,7 +3470,7 @@ footer .contact {
 .howto__restaurant {
   position: relative;
   width: 95%;
-  min-width: 15rem;
+  min-width: 12rem;
   max-width: 30rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
@@ -3573,7 +3573,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 30%;
+  width: 20%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__restaurant__icone {
@@ -3588,7 +3588,7 @@ footer .contact {
 .howto__restaurant__texte {
   font-family: "Roboto";
   font-weight: 700;
-  width: 70%;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__restaurant__texte {
@@ -3636,7 +3636,7 @@ footer .contact {
 .howto__menu {
   position: relative;
   width: 95%;
-  min-width: 15rem;
+  min-width: 12rem;
   max-width: 30rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
@@ -3739,7 +3739,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 30%;
+  width: 20%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__menu__icone {
@@ -3754,7 +3754,7 @@ footer .contact {
 .howto__menu__texte {
   font-family: "Roboto";
   font-weight: 700;
-  width: 70%;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__menu__texte {
@@ -3802,7 +3802,7 @@ footer .contact {
 .howto__eat {
   position: relative;
   width: 95%;
-  min-width: 15rem;
+  min-width: 12rem;
   max-width: 30rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
@@ -3905,7 +3905,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 30%;
+  width: 20%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__eat__icone {
@@ -3920,7 +3920,7 @@ footer .contact {
 .howto__eat__texte {
   font-family: "Roboto";
   font-weight: 700;
-  width: 70%;
+  width: 80%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__eat__texte {

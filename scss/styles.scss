@@ -389,7 +389,7 @@
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
       @include flex-center(row);
-      width: 30%;
+      width: 20%;
       @include for-tablet {
         width: 20%;
       }
@@ -400,7 +400,7 @@
     &__texte {
       font-family: $text-font;
       font-weight: 700;
-      width: 70%;
+      width: 80%;
       @include for-tablet {
         width: 80%;
         @include flex-center(row);
@@ -428,7 +428,7 @@
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
       @include flex-center(row);
-      width: 30%;
+      width: 20%;
       @include for-tablet {
         width: 20%;
       }
@@ -439,7 +439,7 @@
     &__texte {
       font-family: $text-font;
       font-weight: 700;
-      width: 70%;
+      width: 80%;
       @include for-tablet {
         width: 80%;
         @include flex-center(row);
@@ -467,7 +467,7 @@
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
       @include flex-center(row);
-      width: 30%;
+      width: 20%;
       @include for-tablet {
         width: 20%;
       }
@@ -478,7 +478,7 @@
     &__texte {
       font-family: $text-font;
       font-weight: 700;
-      width: 70%;
+      width: 80%;
       @include for-tablet {
         width: 80%;
         @include flex-center(row);
