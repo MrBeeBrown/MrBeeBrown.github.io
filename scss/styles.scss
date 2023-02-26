@@ -222,6 +222,10 @@
       @include flex-center(row);
       gap: 1rem;
     }
+    @include for-desktop {
+      @include flex-center(row);
+      gap: 1rem;
+    }
   }
   &__restaurant {
     @include restaurant;
@@ -237,12 +241,19 @@
       @include for-tablet {
         width: 20%;
       }
+      @include for-desktop {
+        width: 20%;
+      }
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
       width: 70%;
       @include for-tablet {
+        width: 80%;
+        @include flex-center(row);
+      }
+      @include for-desktop {
         width: 80%;
         @include flex-center(row);
       }
@@ -268,12 +279,19 @@
       @include for-tablet {
         width: 20%;
       }
+      @include for-desktop {
+        width: 20%;
+      }
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
       width: 70%;
       @include for-tablet {
+        width: 80%;
+        @include flex-center(row);
+      }
+      @include for-desktop {
         width: 80%;
         @include flex-center(row);
       }
@@ -299,12 +317,19 @@
       @include for-tablet {
         width: 20%;
       }
+      @include for-desktop {
+        width: 20%;
+      }
     }
     &__texte {
       font-family: $text-font;
       font-weight: 700;
       width: 70%;
       @include for-tablet {
+        width: 80%;
+        @include flex-center(row);
+      }
+      @include for-desktop {
         width: 80%;
         @include flex-center(row);
       }
