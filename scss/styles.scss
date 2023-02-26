@@ -15,37 +15,25 @@
       @if $i == 1 {
         & {
           background-image: url(../assets/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          height: 350px;
+          @include background-image;
         }
       }
       @if $i == 2 {
         & {
           background-image: url(../assets/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          height: 350px;
+          @include background-image;
         }
       }
       @if $i == 3 {
         & {
           background-image: url(../assets/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          height: 350px;
+          @include background-image;
         }
       }
       @if $i == 4 {
         & {
           background-image: url(../assets/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          height: 350px;
+          @include background-image;
         }
       }
       img {
@@ -88,16 +76,14 @@
         font-family: $text-font;
         &__entrees {
           @include flex-center(column);
-          gap: 2rem;
-          width: 100%;
-          min-width: 15rem;
-          max-width: 28rem;
-          padding-bottom: 2rem;
+          @include menu-entrees;
           .title {
             @include flex-left(row);
             width: 100%;
             border-bottom: 4px solid $third-color;
             text-transform: uppercase;
+            position: relative;
+            @include underline-menu;
           }
           &__cartes {
             @include flex-between(row);
@@ -118,6 +104,8 @@
               width: 100%;
               border-bottom: 4px solid $third-color;
               text-transform: uppercase;
+              position: relative;
+              @include underline-menu-tablet;
             }
             &__cartes {
               @include flex-between(row);
@@ -140,6 +128,8 @@
               width: 100%;
               border-bottom: 4px solid $third-color;
               text-transform: uppercase;
+              position: relative;
+              @include underline-menu-desktop;
             }
             &__cartes {
               @include flex-between(row);
@@ -154,16 +144,14 @@
         }
         &__plats {
           @include flex-center(column);
-          gap: 2rem;
-          width: 100%;
-          min-width: 15rem;
-          max-width: 28rem;
-          padding-bottom: 2rem;
+          @include menu-entrees;
           .title {
             @include flex-left(row);
             width: 100%;
             border-bottom: 4px solid $third-color;
             text-transform: uppercase;
+            position: relative;
+            @include underline-menu;
           }
           &__cartes {
             @include flex-between(row);
@@ -184,6 +172,8 @@
               width: 100%;
               border-bottom: 4px solid $third-color;
               text-transform: uppercase;
+              position: relative;
+              @include underline-menu-tablet;
             }
             &__cartes {
               @include flex-between(row);
@@ -206,6 +196,8 @@
               width: 100%;
               border-bottom: 4px solid $third-color;
               text-transform: uppercase;
+              position: relative;
+              @include underline-menu-desktop;
             }
             &__cartes {
               @include flex-between(row);
@@ -220,16 +212,14 @@
         }
         &__desserts {
           @include flex-center(column);
-          gap: 2rem;
-          width: 100%;
-          min-width: 15rem;
-          max-width: 28rem;
-          padding-bottom: 2rem;
+          @include menu-entrees;
           .title {
             @include flex-left(row);
             width: 100%;
             border-bottom: 4px solid $third-color;
             text-transform: uppercase;
+            position: relative;
+            @include underline-menu;
           }
           &__cartes {
             @include flex-between(row);
@@ -250,6 +240,8 @@
               width: 100%;
               border-bottom: 4px solid $third-color;
               text-transform: uppercase;
+              position: relative;
+              @include underline-menu-tablet;
             }
             &__cartes {
               @include flex-between(row);
@@ -272,6 +264,8 @@
               width: 100%;
               border-bottom: 4px solid $third-color;
               text-transform: uppercase;
+              position: relative;
+              @include underline-menu-desktop;
             }
             &__cartes {
               @include flex-between(row);
