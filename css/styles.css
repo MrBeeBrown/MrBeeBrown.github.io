@@ -210,6 +210,7 @@ footer {
   padding-inline: 1rem;
   padding-bottom: 2rem;
   background-color: rgb(63, 63, 63);
+  height: 15rem;
 }
 footer .logo {
   padding: 1rem 0.5rem;
@@ -284,6 +285,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 15rem;
   }
 }
 @media (min-width: 1300px) {
@@ -302,6 +304,7 @@ footer .contact {
         -ms-flex-align: center;
             align-items: center;
     gap: 2rem;
+    height: 15rem;
   }
 }
 

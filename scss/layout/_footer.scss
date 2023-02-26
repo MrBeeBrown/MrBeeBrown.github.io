@@ -6,6 +6,7 @@ footer {
   padding-inline: 1rem;
   padding-bottom: 2rem;
   background-color: colors.$gray-footer;
+  height: 15rem;
   .logo {
     padding: 1rem 0.5rem;
     font-family: fonts.$title-font;
@@ -34,9 +35,11 @@ footer {
   }
   @include mixins.for-tablet {
     @include mixins.flex-center(column);
+    height: 15rem;
   }
   @include mixins.for-desktop {
     @include mixins.flex-center(row);
     gap: 2rem;
+    height: 15rem;
   }
 }
