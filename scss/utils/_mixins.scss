@@ -66,6 +66,12 @@
     width: 27rem;
     height: 10rem;
   }
+  @include for-desktop() {
+    width: 100%;
+    min-width: 15rem;
+    width: 27rem;
+    height: 10rem;
+  }
 }
 
 @mixin for-tablet {

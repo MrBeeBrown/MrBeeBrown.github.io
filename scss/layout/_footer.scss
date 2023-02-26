@@ -33,8 +33,7 @@ footer {
     @include mixins.footer-text;
   }
   @include mixins.for-tablet {
-    @include mixins.flex-between(row);
-    gap: 0.3rem;
+    @include mixins.flex-center(column);
   }
   @include mixins.for-desktop {
     @include mixins.flex-center(row);
