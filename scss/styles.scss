@@ -210,6 +210,9 @@
     @include for-tablet {
       @include flex-center(column);
     }
+    @include for-desktop {
+      @include flex-center(column);
+    }
   }
   &__content {
     @include flex-center(column);
@@ -319,6 +322,9 @@
   h2 {
     font-family: $text-font;
     @include for-tablet {
+      @include flex-center(column);
+    }
+    @include for-desktop {
       @include flex-center(column);
     }
   }
