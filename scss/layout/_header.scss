@@ -12,6 +12,20 @@
     font-family: fonts.$title-font;
     font-size: 2rem;
   }
+  @include mixins.for-tablet {
+    height: 6rem;
+    p {
+      font-family: fonts.$title-font;
+      font-size: 3rem;
+    }
+  }
+  @include mixins.for-desktop {
+    height: 8rem;
+    p {
+      font-family: fonts.$title-font;
+      font-size: 4rem;
+    }
+  }
 }
 
 .header__1 {
