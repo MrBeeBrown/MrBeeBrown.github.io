@@ -45,9 +45,9 @@
     box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.5);
   }
   @include mixins.for-tablet {
-    width: 75%;
+    width: 24rem;
   }
   @include mixins.for-desktop {
-    width: 75%;
+    width: 30rem;
   }
 }
