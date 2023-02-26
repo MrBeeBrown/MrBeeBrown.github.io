@@ -3056,10 +3056,10 @@ footer .contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -3153,14 +3153,14 @@ footer .contact {
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__restaurant__number {
-    position: absolute;
+    position: relative;
     top: 0;
-    right: 0;
-    width: 100%;
-    height: 1.5rem;
+    left: 0;
+    width: 10%;
+    height: 100%;
     border-radius: 0;
     border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
   }
 }
 @media (min-width: 1300px) {
@@ -3316,14 +3316,14 @@ footer .contact {
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__menu__number {
-    position: absolute;
+    position: relative;
     top: 0;
-    right: 0;
-    width: 100%;
-    height: 1.5rem;
+    left: 0;
+    width: 10%;
+    height: 100%;
     border-radius: 0;
     border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
   }
 }
 @media (min-width: 1300px) {
@@ -3479,14 +3479,14 @@ footer .contact {
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__eat__number {
-    position: absolute;
+    position: relative;
     top: 0;
-    right: 0;
-    width: 100%;
-    height: 1.5rem;
+    left: 0;
+    width: 10%;
+    height: 100%;
     border-radius: 0;
     border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
   }
 }
 @media (min-width: 1300px) {
