@@ -13,6 +13,7 @@
     font-size: 2rem;
   }
   @include mixins.for-tablet {
+    z-index: 1;
     height: 6rem;
     p {
       font-family: fonts.$title-font;
@@ -20,6 +21,7 @@
     }
   }
   @include mixins.for-desktop {
+    z-index: 1;
     height: 8rem;
     p {
       font-family: fonts.$title-font;

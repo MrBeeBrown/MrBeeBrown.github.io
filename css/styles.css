@@ -175,6 +175,7 @@ a:active {
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .header {
+    z-index: 1;
     height: 6rem;
   }
   .header p {
@@ -184,6 +185,7 @@ a:active {
 }
 @media (min-width: 1300px) {
   .header {
+    z-index: 1;
     height: 8rem;
   }
   .header p {
