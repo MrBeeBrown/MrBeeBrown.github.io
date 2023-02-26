@@ -111,7 +111,7 @@
             @include flex-center(column);
             gap: 2rem;
             width: 100%;
-            max-width: 50rem;
+            max-width: 40rem;
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
@@ -177,7 +177,7 @@
             @include flex-center(column);
             gap: 2rem;
             width: 100%;
-            max-width: 50rem;
+            max-width: 40rem;
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
@@ -243,7 +243,7 @@
             @include flex-center(column);
             gap: 2rem;
             width: 100%;
-            max-width: 50rem;
+            max-width: 40rem;
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
@@ -320,6 +320,24 @@
       color: lighten($color: $black-font, $amount: 30);
       padding: 1rem;
     }
+    @include for-tablet {
+      h1 {
+        font-size: 2rem;
+      }
+      &__sub {
+        @include flex-center(row);
+        font-size: 1.6rem;
+      }
+    }
+    @include for-desktop {
+      h1 {
+        font-size: 3rem;
+      }
+      &__sub {
+        @include flex-center(row);
+        font-size: 2.2rem;
+      }
+    }
   }
   &__btn {
     padding: 1rem;
@@ -347,9 +365,11 @@
     font-family: $text-font;
     @include for-tablet {
       @include flex-center(column);
+      font-size: 2rem;
     }
     @include for-desktop {
       @include flex-center(column);
+      font-size: 2rem;
     }
   }
   &__content {
@@ -394,6 +414,7 @@
       @include for-desktop {
         width: 80%;
         @include flex-center(row);
+        font-size: 1.2rem;
       }
     }
     &:hover {
@@ -432,6 +453,7 @@
       @include for-desktop {
         width: 80%;
         @include flex-center(row);
+        font-size: 1.2rem;
       }
     }
     &:hover {
@@ -470,6 +492,7 @@
       @include for-desktop {
         width: 80%;
         @include flex-center(row);
+        font-size: 1.2rem;
       }
     }
     &:hover {
@@ -486,9 +509,11 @@
     font-family: $text-font;
     @include for-tablet {
       @include flex-center(column);
+      font-size: 2rem;
     }
     @include for-desktop {
       @include flex-center(column);
+      font-size: 2rem;
     }
   }
   padding: 3rem 1rem;
@@ -510,6 +535,7 @@
     }
     @include for-desktop {
       @include flex-center(row);
+      height: 20rem;
     }
   }
   @for $i from 1 through 4 {

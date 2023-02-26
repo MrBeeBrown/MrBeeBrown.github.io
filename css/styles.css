@@ -493,7 +493,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__1__menu__entrees .title {
@@ -674,7 +674,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__1__menu__plats .title {
@@ -855,7 +855,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__1__menu__desserts .title {
@@ -1127,7 +1127,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__2__menu__entrees .title {
@@ -1308,7 +1308,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__2__menu__plats .title {
@@ -1489,7 +1489,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__2__menu__desserts .title {
@@ -1761,7 +1761,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__3__menu__entrees .title {
@@ -1942,7 +1942,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__3__menu__plats .title {
@@ -2123,7 +2123,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__3__menu__desserts .title {
@@ -2395,7 +2395,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__4__menu__entrees .title {
@@ -2576,7 +2576,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__4__menu__plats .title {
@@ -2757,7 +2757,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 40rem;
     padding-bottom: 2rem;
   }
   .resto__4__menu__desserts .title {
@@ -2932,6 +2932,48 @@ footer .contact {
   color: #4d4d4d;
   padding: 1rem;
 }
+@media (min-width: 768px) and (max-width: 1299px) {
+  .resto__headline h1 {
+    font-size: 2rem;
+  }
+  .resto__headline__sub {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1300px) {
+  .resto__headline h1 {
+    font-size: 3rem;
+  }
+  .resto__headline__sub {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2.2rem;
+  }
+}
 .resto__btn {
   padding: 1rem;
 }
@@ -2971,6 +3013,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1300px) {
@@ -2988,6 +3031,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 2rem;
   }
 }
 .howto__content {
@@ -3197,6 +3241,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 1.2rem;
   }
 }
 .howto__restaurant:hover {
@@ -3359,6 +3404,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 1.2rem;
   }
 }
 .howto__menu:hover {
@@ -3521,6 +3567,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 1.2rem;
   }
 }
 .howto__eat:hover {
@@ -3552,6 +3599,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 2rem;
   }
 }
 @media (min-width: 1300px) {
@@ -3569,6 +3617,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    font-size: 2rem;
   }
 }
 .restaurant__content {
@@ -3628,6 +3677,7 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 20rem;
   }
 }
 .restaurant__1 {
