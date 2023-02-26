@@ -3470,7 +3470,7 @@ footer .contact {
 .howto__restaurant {
   position: relative;
   width: 95%;
-  min-width: 25rem;
+  min-width: 15rem;
   max-width: 30rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
@@ -3636,7 +3636,7 @@ footer .contact {
 .howto__menu {
   position: relative;
   width: 95%;
-  min-width: 25rem;
+  min-width: 15rem;
   max-width: 30rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
@@ -3802,7 +3802,7 @@ footer .contact {
 .howto__eat {
   position: relative;
   width: 95%;
-  min-width: 25rem;
+  min-width: 15rem;
   max-width: 30rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
