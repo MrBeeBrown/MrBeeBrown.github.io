@@ -307,6 +307,9 @@ footer .contact {
             align-items: center;
     height: 15rem;
   }
+  footer .logo {
+    font-size: 1.5rem;
+  }
 }
 @media (min-width: 1300px) {
   footer {
@@ -325,6 +328,9 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     height: 15rem;
+  }
+  footer .logo {
+    font-size: 1.9rem;
   }
 }
 
@@ -4026,31 +4032,6 @@ footer .contact {
   gap: 2rem;
   padding: 1rem 0;
 }
-.restaurant__content a {
-  width: 100%;
-  min-width: 15rem;
-  max-width: 28rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-@media (min-width: 768px) and (max-width: 1299px) {
-  .restaurant__content a {
-    width: 100%;
-    min-width: 30rem;
-    max-width: 40rem;
-  }
-}
 @media (min-width: 1300px) {
   .restaurant__content {
     display: -webkit-box;
@@ -4082,6 +4063,27 @@ footer .contact {
 .restaurant__1__img {
   height: 80%;
 }
+.restaurant__1__img .a-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__1__img .a-img {
+    width: 100%;
+  }
+}
 .restaurant__1__img img {
   width: 100%;
   height: 100%;
@@ -4106,6 +4108,28 @@ footer .contact {
           align-items: center;
   height: 20%;
   padding: 1rem;
+  position: relative;
+}
+.restaurant__1__header .a-header {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__1__header .a-header {
+    width: 90%;
+  }
 }
 .restaurant__1__name h3 {
   font-family: "Roboto";
@@ -4115,8 +4139,26 @@ footer .contact {
   font-family: "Roboto";
   font-size: 0.9rem;
 }
-.restaurant__1__like img:hover {
-  color: linear-gradient(175deg, #ff79da, #9356dc);
+.restaurant__1__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+.restaurant__1__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.restaurant__1__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.restaurant__1__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.restaurant__1__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
+  /* color: transparent;
+  background-image: $gradient;
+  background-clip: text; */
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__1 {
@@ -4138,6 +4180,27 @@ footer .contact {
 }
 .restaurant__2__img {
   height: 80%;
+}
+.restaurant__2__img .a-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__2__img .a-img {
+    width: 100%;
+  }
 }
 .restaurant__2__img img {
   width: 100%;
@@ -4163,6 +4226,28 @@ footer .contact {
           align-items: center;
   height: 20%;
   padding: 1rem;
+  position: relative;
+}
+.restaurant__2__header .a-header {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__2__header .a-header {
+    width: 90%;
+  }
 }
 .restaurant__2__name h3 {
   font-family: "Roboto";
@@ -4172,8 +4257,26 @@ footer .contact {
   font-family: "Roboto";
   font-size: 0.9rem;
 }
-.restaurant__2__like img:hover {
-  color: linear-gradient(175deg, #ff79da, #9356dc);
+.restaurant__2__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+.restaurant__2__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.restaurant__2__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.restaurant__2__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.restaurant__2__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
+  /* color: transparent;
+  background-image: $gradient;
+  background-clip: text; */
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__2 {
@@ -4195,6 +4298,27 @@ footer .contact {
 }
 .restaurant__3__img {
   height: 80%;
+}
+.restaurant__3__img .a-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__3__img .a-img {
+    width: 100%;
+  }
 }
 .restaurant__3__img img {
   width: 100%;
@@ -4220,6 +4344,28 @@ footer .contact {
           align-items: center;
   height: 20%;
   padding: 1rem;
+  position: relative;
+}
+.restaurant__3__header .a-header {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__3__header .a-header {
+    width: 90%;
+  }
 }
 .restaurant__3__name h3 {
   font-family: "Roboto";
@@ -4229,8 +4375,26 @@ footer .contact {
   font-family: "Roboto";
   font-size: 0.9rem;
 }
-.restaurant__3__like img:hover {
-  color: linear-gradient(175deg, #ff79da, #9356dc);
+.restaurant__3__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+.restaurant__3__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.restaurant__3__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.restaurant__3__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.restaurant__3__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
+  /* color: transparent;
+  background-image: $gradient;
+  background-clip: text; */
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__3 {
@@ -4252,6 +4416,27 @@ footer .contact {
 }
 .restaurant__4__img {
   height: 80%;
+}
+.restaurant__4__img .a-img {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__4__img .a-img {
+    width: 100%;
+  }
 }
 .restaurant__4__img img {
   width: 100%;
@@ -4277,6 +4462,28 @@ footer .contact {
           align-items: center;
   height: 20%;
   padding: 1rem;
+  position: relative;
+}
+.restaurant__4__header .a-header {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__4__header .a-header {
+    width: 90%;
+  }
 }
 .restaurant__4__name h3 {
   font-family: "Roboto";
@@ -4286,8 +4493,26 @@ footer .contact {
   font-family: "Roboto";
   font-size: 0.9rem;
 }
-.restaurant__4__like img:hover {
-  color: linear-gradient(175deg, #ff79da, #9356dc);
+.restaurant__4__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+.restaurant__4__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.restaurant__4__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.restaurant__4__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.restaurant__4__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
+  /* color: transparent;
+  background-image: $gradient;
+  background-clip: text; */
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__4 {

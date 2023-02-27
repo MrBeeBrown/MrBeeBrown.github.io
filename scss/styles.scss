@@ -516,17 +516,6 @@
     @include flex-center(column);
     gap: 2rem;
     padding: 1rem 0;
-    a {
-      width: 100%;
-      min-width: 15rem;
-      max-width: 28rem;
-      @include flex-center(column);
-      @include for-tablet {
-        width: 100%;
-        min-width: 30rem;
-        max-width: 40rem;
-      }
-    }
     @include for-desktop {
       @include flex-center(row);
       height: 20rem;
@@ -543,6 +532,13 @@
       box-shadow: 0px 15px 20px 3px rgba(0, 0, 0, 0.27);
       &__img {
         height: 80%;
+        .a-img {
+          width: 100%;
+          @include flex-center(column);
+          @include for-tablet {
+            width: 100%;
+          }
+        }
         img {
           width: 100%;
           height: 100%;
@@ -555,6 +551,14 @@
         @include flex-between(row);
         height: 20%;
         padding: 1rem;
+        position: relative;
+        .a-header {
+          width: 90%;
+          @include flex-left(row);
+          @include for-tablet {
+            width: 90%;
+          }
+        }
       }
       &__name {
         h3 {
@@ -569,9 +573,27 @@
         }
       }
       &__like {
-        img {
+        .fa-heart {
+          position: absolute;
+          top: 25%;
+          right: 5%;
+          &:nth-child(1) {
+            opacity: 1;
+          }
+          &:nth-child(2) {
+            opacity: 0;
+          }
           &:hover {
-            color: $gradient;
+            &:nth-child(1) {
+              opacity: 0;
+            }
+            &:nth-child(2) {
+              opacity: 1;
+              color: $primary-color;
+              /* color: transparent;
+              background-image: $gradient;
+              background-clip: text; */
+            }
           }
         }
       }

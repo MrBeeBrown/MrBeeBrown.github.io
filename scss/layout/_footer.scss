@@ -36,10 +36,16 @@ footer {
   @include mixins.for-tablet {
     @include mixins.flex-center(column);
     height: 15rem;
+    .logo {
+      font-size: 1.5rem;
+    }
   }
   @include mixins.for-desktop {
     @include mixins.flex-center(row);
     gap: 2rem;
     height: 15rem;
+    .logo {
+      font-size: 1.9rem;
+    }
   }
 }
