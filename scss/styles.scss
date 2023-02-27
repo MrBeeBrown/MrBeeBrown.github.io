@@ -56,6 +56,7 @@
           @include flex-center(row);
           gap: 5rem;
           height: 5rem;
+          position: relative;
           p {
             font-family: $text-font;
             font-size: 1.2rem;
@@ -68,7 +69,32 @@
             }
           }
         }
+        &__like {
+          .fa-heart {
+            position: absolute;
+            top: 25%;
+            right: 30%;
+            cursor: pointer;
+            transition: all 400ms ease-in-out;
+            &:nth-child(1) {
+              opacity: 1;
+            }
+            &:nth-child(2) {
+              opacity: 0;
+            }
+            &:hover {
+              &:nth-child(1) {
+                opacity: 0;
+              }
+              &:nth-child(2) {
+                opacity: 1;
+                color: $primary-color;
+              }
+            }
+          }
+        }
       }
+
       &__menu {
         @include flex-center(column);
         padding: 3rem 1rem;
@@ -76,13 +102,10 @@
         font-family: $text-font;
         &__entrees {
           @include flex-center(column);
-          @include menu-entrees;
+          @include menu;
           .title {
             @include flex-left(row);
-            width: 100%;
-            border-bottom: 4px solid $third-color;
-            text-transform: uppercase;
-            position: relative;
+            @include underline;
             @include underline-menu;
           }
           &__cartes {
@@ -92,6 +115,18 @@
             width: 100%;
             border-radius: 1rem;
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            &__dishes {
+              &__name {
+                font-weight: 700;
+              }
+              &__info {
+                font-size: 0.9rem;
+              }
+            }
+            &__price {
+              font-weight: 700;
+            }
           }
           @include for-tablet {
             @include flex-center(column);
@@ -101,10 +136,7 @@
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
-              width: 100%;
-              border-bottom: 4px solid $third-color;
-              text-transform: uppercase;
-              position: relative;
+              @include underline;
               @include underline-menu-tablet;
             }
             &__cartes {
@@ -115,20 +147,29 @@
               height: 7rem;
               border-radius: 1rem;
               box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              &__dishes {
+                &__name {
+                  font-weight: 700;
+                }
+                &__info {
+                  font-size: 0.9rem;
+                }
+              }
+              &__price {
+                font-weight: 700;
+              }
             }
           }
           @include for-desktop {
             @include flex-center(column);
             gap: 2rem;
             width: 100%;
-            max-width: 50rem;
+            max-width: 25rem;
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
-              width: 100%;
-              border-bottom: 4px solid $third-color;
-              text-transform: uppercase;
-              position: relative;
+              @include underline;
               @include underline-menu-desktop;
             }
             &__cartes {
@@ -139,18 +180,27 @@
               height: 7rem;
               border-radius: 1rem;
               box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              &__dishes {
+                &__name {
+                  font-weight: 700;
+                }
+                &__info {
+                  font-size: 0.9rem;
+                }
+              }
+              &__price {
+                font-weight: 700;
+              }
             }
           }
         }
         &__plats {
           @include flex-center(column);
-          @include menu-entrees;
+          @include menu;
           .title {
             @include flex-left(row);
-            width: 100%;
-            border-bottom: 4px solid $third-color;
-            text-transform: uppercase;
-            position: relative;
+            @include underline;
             @include underline-menu;
           }
           &__cartes {
@@ -160,6 +210,18 @@
             padding: 1rem;
             border-radius: 1rem;
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            &__dishes {
+              &__name {
+                font-weight: 700;
+              }
+              &__info {
+                font-size: 0.9rem;
+              }
+            }
+            &__price {
+              font-weight: 700;
+            }
           }
           @include for-tablet {
             @include flex-center(column);
@@ -169,10 +231,7 @@
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
-              width: 100%;
-              border-bottom: 4px solid $third-color;
-              text-transform: uppercase;
-              position: relative;
+              @include underline;
               @include underline-menu-tablet;
             }
             &__cartes {
@@ -183,20 +242,29 @@
               padding: 1rem;
               border-radius: 1rem;
               box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              &__dishes {
+                &__name {
+                  font-weight: 700;
+                }
+                &__info {
+                  font-size: 0.9rem;
+                }
+              }
+              &__price {
+                font-weight: 700;
+              }
             }
           }
           @include for-desktop {
             @include flex-center(column);
             gap: 2rem;
             width: 100%;
-            max-width: 50rem;
+            max-width: 25rem;
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
-              width: 100%;
-              border-bottom: 4px solid $third-color;
-              text-transform: uppercase;
-              position: relative;
+              @include underline;
               @include underline-menu-desktop;
             }
             &__cartes {
@@ -207,18 +275,27 @@
               padding: 1rem;
               border-radius: 1rem;
               box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              &__dishes {
+                &__name {
+                  font-weight: 700;
+                }
+                &__info {
+                  font-size: 0.9rem;
+                }
+              }
+              &__price {
+                font-weight: 700;
+              }
             }
           }
         }
         &__desserts {
           @include flex-center(column);
-          @include menu-entrees;
+          @include menu;
           .title {
             @include flex-left(row);
-            width: 100%;
-            border-bottom: 4px solid $third-color;
-            text-transform: uppercase;
-            position: relative;
+            @include underline;
             @include underline-menu;
           }
           &__cartes {
@@ -228,6 +305,18 @@
             padding: 1rem;
             border-radius: 1rem;
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+            &__dishes {
+              &__name {
+                font-weight: 700;
+              }
+              &__info {
+                font-size: 0.9rem;
+              }
+            }
+            &__price {
+              font-weight: 700;
+            }
           }
           @include for-tablet {
             @include flex-center(column);
@@ -237,10 +326,7 @@
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
-              width: 100%;
-              border-bottom: 4px solid $third-color;
-              text-transform: uppercase;
-              position: relative;
+              @include underline;
               @include underline-menu-tablet;
             }
             &__cartes {
@@ -251,20 +337,29 @@
               padding: 1rem;
               border-radius: 1rem;
               box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              &__dishes {
+                &__name {
+                  font-weight: 700;
+                }
+                &__info {
+                  font-size: 0.9rem;
+                }
+              }
+              &__price {
+                font-weight: 700;
+              }
             }
           }
           @include for-desktop {
             @include flex-center(column);
             gap: 2rem;
             width: 100%;
-            max-width: 50rem;
+            max-width: 25rem;
             padding-bottom: 2rem;
             .title {
               @include flex-left(row);
-              width: 100%;
-              border-bottom: 4px solid $third-color;
-              text-transform: uppercase;
-              position: relative;
+              @include underline;
               @include underline-menu-desktop;
             }
             &__cartes {
@@ -275,7 +370,27 @@
               padding: 1rem;
               border-radius: 1rem;
               box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              &__dishes {
+                &__name {
+                  font-weight: 700;
+                }
+                &__info {
+                  font-size: 0.9rem;
+                }
+              }
+              &__price {
+                font-weight: 700;
+              }
             }
+          }
+        }
+        .content {
+          width: 100%;
+          @include flex-center(column);
+          @include for-desktop {
+            @include flex-center-menu(row);
+            gap: 7rem;
           }
         }
       }
@@ -381,6 +496,7 @@
   &__restaurant {
     @include restaurant;
     @include flex-center(row);
+    cursor: pointer;
     &__number {
       @include number;
       @include flex-center(row);
@@ -416,10 +532,18 @@
         color: $primary-color;
       }
     }
+    &:active {
+      background-color: lighten($color: $primary-color, $amount: 35);
+      .howto__restaurant__icone {
+        color: $primary-color;
+      }
+      transform: scale(0.9);
+    }
   }
   &__menu {
     @include restaurant;
     @include flex-center(row);
+    cursor: pointer;
     &__number {
       @include number;
       @include flex-center(row);
@@ -455,10 +579,18 @@
         color: $primary-color;
       }
     }
+    &:active {
+      background-color: lighten($color: $primary-color, $amount: 35);
+      .howto__restaurant__icone {
+        color: $primary-color;
+      }
+      transform: scale(0.9);
+    }
   }
   &__eat {
     @include restaurant;
     @include flex-center(row);
+    cursor: pointer;
     &__number {
       @include number;
       @include flex-center(row);
@@ -493,6 +625,13 @@
       .howto__eat__icone {
         color: $primary-color;
       }
+    }
+    &:active {
+      background-color: lighten($color: $primary-color, $amount: 35);
+      .howto__restaurant__icone {
+        color: $primary-color;
+      }
+      transform: scale(0.9);
     }
   }
 }
@@ -583,14 +722,12 @@
           top: 25%;
           right: 5%;
           cursor: pointer;
+          transition: all 400ms ease-in-out;
           &:nth-child(1) {
             opacity: 1;
           }
           &:nth-child(2) {
             opacity: 0;
-            color: transparent;
-            background-image: $gradient;
-            background-clip: text;
           }
           &:hover {
             &:nth-child(1) {
@@ -598,10 +735,7 @@
             }
             &:nth-child(2) {
               opacity: 1;
-              /* color: $primary-color; */
-              color: transparent;
-              background-image: $gradient;
-              background-clip: text;
+              color: $primary-color;
             }
           }
         }

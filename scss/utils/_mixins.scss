@@ -8,6 +8,13 @@
   align-items: center;
 }
 
+@mixin flex-center-menu($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 @mixin flex-left($direction) {
   display: flex;
   flex-direction: $direction;
@@ -142,10 +149,17 @@
   height: 350px;
 }
 
-@mixin menu-entrees {
+@mixin menu {
   gap: 2rem;
   width: 100%;
   min-width: 15rem;
   max-width: 28rem;
   padding-bottom: 2rem;
+}
+
+@mixin underline {
+  width: 100%;
+  border-bottom: 4px solid colors.$third-color;
+  text-transform: uppercase;
+  position: relative;
 }

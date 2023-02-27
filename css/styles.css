@@ -36,6 +36,13 @@ a:active {
   -webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
 }
+.btn__resto:active {
+  background-image: linear-gradient(175deg, #fd90de, #a273db);
+  -webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
 
 .btn__new {
   position: absolute;
@@ -68,6 +75,13 @@ a:active {
   background-image: linear-gradient(175deg, #fd90de, #a273db);
   -webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
+}
+.btn__command:active {
+  background-image: linear-gradient(175deg, #fd90de, #a273db);
+  -webkit-box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 6px 15px 3px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .btn__command {
@@ -220,6 +234,10 @@ a:active {
   position: absolute;
   left: 1rem;
   top: 1.5rem;
+}
+.header__1 .fa-arrow-left:active {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
 }
 .header__1 p {
   font-family: "Shrikhand";
@@ -409,6 +427,7 @@ footer .contact {
           align-items: center;
   gap: 5rem;
   height: 5rem;
+  position: relative;
 }
 .resto__1__title__name p {
   font-family: "Roboto";
@@ -424,6 +443,27 @@ footer .contact {
   .resto__1__title__name p {
     font-size: 2rem;
   }
+}
+.resto__1__title__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.resto__1__title__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.resto__1__title__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.resto__1__title__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.resto__1__title__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
 }
 .resto__1__menu {
   display: -webkit-box;
@@ -511,6 +551,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__1__menu__entrees__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__1__menu__entrees__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__1__menu__entrees__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__1__menu__entrees {
@@ -581,6 +631,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__1__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__1__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__1__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -600,7 +660,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__1__menu__entrees .title {
@@ -652,6 +712,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__1__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__1__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__1__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__1__menu__plats {
@@ -722,6 +792,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__1__menu__plats__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__1__menu__plats__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__1__menu__plats__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__1__menu__plats {
@@ -792,6 +872,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__1__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__1__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__1__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -811,7 +901,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__1__menu__plats .title {
@@ -863,6 +953,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__1__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__1__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__1__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__1__menu__desserts {
@@ -933,6 +1033,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__1__menu__desserts__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__1__menu__desserts__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__1__menu__desserts__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__1__menu__desserts {
@@ -1003,6 +1113,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__1__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__1__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__1__menu__desserts__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -1022,7 +1142,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__1__menu__desserts .title {
@@ -1074,6 +1194,50 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__1__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__1__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__1__menu__desserts__cartes__price {
+    font-weight: 700;
+  }
+}
+.resto__1__menu .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 1300px) {
+  .resto__1__menu .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 7rem;
   }
 }
 .resto__2 {
@@ -1133,6 +1297,7 @@ footer .contact {
           align-items: center;
   gap: 5rem;
   height: 5rem;
+  position: relative;
 }
 .resto__2__title__name p {
   font-family: "Roboto";
@@ -1148,6 +1313,27 @@ footer .contact {
   .resto__2__title__name p {
     font-size: 2rem;
   }
+}
+.resto__2__title__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.resto__2__title__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.resto__2__title__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.resto__2__title__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.resto__2__title__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
 }
 .resto__2__menu {
   display: -webkit-box;
@@ -1235,6 +1421,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__2__menu__entrees__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__2__menu__entrees__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__2__menu__entrees__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__2__menu__entrees {
@@ -1305,6 +1501,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__2__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__2__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__2__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -1324,7 +1530,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__2__menu__entrees .title {
@@ -1376,6 +1582,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__2__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__2__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__2__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__2__menu__plats {
@@ -1446,6 +1662,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__2__menu__plats__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__2__menu__plats__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__2__menu__plats__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__2__menu__plats {
@@ -1516,6 +1742,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__2__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__2__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__2__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -1535,7 +1771,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__2__menu__plats .title {
@@ -1587,6 +1823,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__2__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__2__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__2__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__2__menu__desserts {
@@ -1657,6 +1903,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__2__menu__desserts__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__2__menu__desserts__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__2__menu__desserts__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__2__menu__desserts {
@@ -1727,6 +1983,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__2__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__2__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__2__menu__desserts__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -1746,7 +2012,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__2__menu__desserts .title {
@@ -1798,6 +2064,50 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__2__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__2__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__2__menu__desserts__cartes__price {
+    font-weight: 700;
+  }
+}
+.resto__2__menu .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 1300px) {
+  .resto__2__menu .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 7rem;
   }
 }
 .resto__3 {
@@ -1857,6 +2167,7 @@ footer .contact {
           align-items: center;
   gap: 5rem;
   height: 5rem;
+  position: relative;
 }
 .resto__3__title__name p {
   font-family: "Roboto";
@@ -1872,6 +2183,27 @@ footer .contact {
   .resto__3__title__name p {
     font-size: 2rem;
   }
+}
+.resto__3__title__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.resto__3__title__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.resto__3__title__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.resto__3__title__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.resto__3__title__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
 }
 .resto__3__menu {
   display: -webkit-box;
@@ -1959,6 +2291,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__3__menu__entrees__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__3__menu__entrees__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__3__menu__entrees__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__3__menu__entrees {
@@ -2029,6 +2371,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__3__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__3__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__3__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -2048,7 +2400,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__3__menu__entrees .title {
@@ -2100,6 +2452,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__3__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__3__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__3__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__3__menu__plats {
@@ -2170,6 +2532,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__3__menu__plats__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__3__menu__plats__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__3__menu__plats__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__3__menu__plats {
@@ -2240,6 +2612,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__3__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__3__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__3__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -2259,7 +2641,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__3__menu__plats .title {
@@ -2311,6 +2693,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__3__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__3__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__3__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__3__menu__desserts {
@@ -2381,6 +2773,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__3__menu__desserts__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__3__menu__desserts__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__3__menu__desserts__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__3__menu__desserts {
@@ -2451,6 +2853,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__3__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__3__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__3__menu__desserts__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -2470,7 +2882,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__3__menu__desserts .title {
@@ -2522,6 +2934,50 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__3__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__3__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__3__menu__desserts__cartes__price {
+    font-weight: 700;
+  }
+}
+.resto__3__menu .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 1300px) {
+  .resto__3__menu .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 7rem;
   }
 }
 .resto__4 {
@@ -2581,6 +3037,7 @@ footer .contact {
           align-items: center;
   gap: 5rem;
   height: 5rem;
+  position: relative;
 }
 .resto__4__title__name p {
   font-family: "Roboto";
@@ -2596,6 +3053,27 @@ footer .contact {
   .resto__4__title__name p {
     font-size: 2rem;
   }
+}
+.resto__4__title__like .fa-heart {
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+}
+.resto__4__title__like .fa-heart:nth-child(1) {
+  opacity: 1;
+}
+.resto__4__title__like .fa-heart:nth-child(2) {
+  opacity: 0;
+}
+.resto__4__title__like .fa-heart:hover:nth-child(1) {
+  opacity: 0;
+}
+.resto__4__title__like .fa-heart:hover:nth-child(2) {
+  opacity: 1;
+  color: #9356dc;
 }
 .resto__4__menu {
   display: -webkit-box;
@@ -2683,6 +3161,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__4__menu__entrees__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__4__menu__entrees__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__4__menu__entrees__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__4__menu__entrees {
@@ -2753,6 +3241,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__4__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__4__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__4__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -2772,7 +3270,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__4__menu__entrees .title {
@@ -2824,6 +3322,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__4__menu__entrees__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__4__menu__entrees__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__4__menu__entrees__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__4__menu__plats {
@@ -2894,6 +3402,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__4__menu__plats__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__4__menu__plats__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__4__menu__plats__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__4__menu__plats {
@@ -2964,6 +3482,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__4__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__4__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__4__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -2983,7 +3511,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__4__menu__plats .title {
@@ -3035,6 +3563,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__4__menu__plats__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__4__menu__plats__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__4__menu__plats__cartes__price {
+    font-weight: 700;
   }
 }
 .resto__4__menu__desserts {
@@ -3105,6 +3643,16 @@ footer .contact {
   border-radius: 1rem;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.resto__4__menu__desserts__cartes__dishes__name {
+  font-weight: 700;
+}
+.resto__4__menu__desserts__cartes__dishes__info {
+  font-size: 0.9rem;
+}
+.resto__4__menu__desserts__cartes__price {
+  font-weight: 700;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__4__menu__desserts {
@@ -3175,6 +3723,16 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__4__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__4__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__4__menu__desserts__cartes__price {
+    font-weight: 700;
   }
 }
 @media (min-width: 1300px) {
@@ -3194,7 +3752,7 @@ footer .contact {
             align-items: center;
     gap: 2rem;
     width: 100%;
-    max-width: 50rem;
+    max-width: 25rem;
     padding-bottom: 2rem;
   }
   .resto__4__menu__desserts .title {
@@ -3246,6 +3804,50 @@ footer .contact {
     border-radius: 1rem;
     -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .resto__4__menu__desserts__cartes__dishes__name {
+    font-weight: 700;
+  }
+  .resto__4__menu__desserts__cartes__dishes__info {
+    font-size: 0.9rem;
+  }
+  .resto__4__menu__desserts__cartes__price {
+    font-weight: 700;
+  }
+}
+.resto__4__menu .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (min-width: 1300px) {
+  .resto__4__menu .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 7rem;
   }
 }
 .resto__location {
@@ -3493,6 +4095,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__restaurant {
@@ -3638,6 +4241,14 @@ footer .contact {
 .howto__restaurant:hover .howto__restaurant__icone {
   color: #9356dc;
 }
+.howto__restaurant:active {
+  background-color: #f2eafb;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.howto__restaurant:active .howto__restaurant__icone {
+  color: #9356dc;
+}
 .howto__menu {
   position: relative;
   width: 95%;
@@ -3659,6 +4270,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__menu {
@@ -3804,6 +4416,14 @@ footer .contact {
 .howto__menu:hover .howto__menu__icone {
   color: #9356dc;
 }
+.howto__menu:active {
+  background-color: #f2eafb;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.howto__menu:active .howto__restaurant__icone {
+  color: #9356dc;
+}
 .howto__eat {
   position: relative;
   width: 95%;
@@ -3825,6 +4445,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__eat {
@@ -3968,6 +4589,14 @@ footer .contact {
   background-color: #f2eafb;
 }
 .howto__eat:hover .howto__eat__icone {
+  color: #9356dc;
+}
+.howto__eat:active {
+  background-color: #f2eafb;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+.howto__eat:active .howto__restaurant__icone {
   color: #9356dc;
 }
 
@@ -4150,27 +4779,21 @@ footer .contact {
   top: 25%;
   right: 5%;
   cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .restaurant__1__like .fa-heart:nth-child(1) {
   opacity: 1;
 }
 .restaurant__1__like .fa-heart:nth-child(2) {
   opacity: 0;
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
 }
 .restaurant__1__like .fa-heart:hover:nth-child(1) {
   opacity: 0;
 }
 .restaurant__1__like .fa-heart:hover:nth-child(2) {
   opacity: 1;
-  /* color: $primary-color; */
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: #9356dc;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__1 {
@@ -4280,27 +4903,21 @@ footer .contact {
   top: 25%;
   right: 5%;
   cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .restaurant__2__like .fa-heart:nth-child(1) {
   opacity: 1;
 }
 .restaurant__2__like .fa-heart:nth-child(2) {
   opacity: 0;
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
 }
 .restaurant__2__like .fa-heart:hover:nth-child(1) {
   opacity: 0;
 }
 .restaurant__2__like .fa-heart:hover:nth-child(2) {
   opacity: 1;
-  /* color: $primary-color; */
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: #9356dc;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__2 {
@@ -4410,27 +5027,21 @@ footer .contact {
   top: 25%;
   right: 5%;
   cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .restaurant__3__like .fa-heart:nth-child(1) {
   opacity: 1;
 }
 .restaurant__3__like .fa-heart:nth-child(2) {
   opacity: 0;
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
 }
 .restaurant__3__like .fa-heart:hover:nth-child(1) {
   opacity: 0;
 }
 .restaurant__3__like .fa-heart:hover:nth-child(2) {
   opacity: 1;
-  /* color: $primary-color; */
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: #9356dc;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__3 {
@@ -4540,27 +5151,21 @@ footer .contact {
   top: 25%;
   right: 5%;
   cursor: pointer;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
 }
 .restaurant__4__like .fa-heart:nth-child(1) {
   opacity: 1;
 }
 .restaurant__4__like .fa-heart:nth-child(2) {
   opacity: 0;
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
 }
 .restaurant__4__like .fa-heart:hover:nth-child(1) {
   opacity: 0;
 }
 .restaurant__4__like .fa-heart:hover:nth-child(2) {
   opacity: 1;
-  /* color: $primary-color; */
-  color: transparent;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
-  -webkit-background-clip: text;
-          background-clip: text;
+  color: #9356dc;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__4 {
