@@ -4033,6 +4033,12 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .restaurant__content {
+    /* @include flex-center(row);
+    height: 20rem; */
+    height: auto;
+    width: 100%;
+    /* min-width: 50rem;
+    max-width: 80rem; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4046,7 +4052,8 @@ footer .contact {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 20rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 .restaurant__1 {
@@ -4167,6 +4174,12 @@ footer .contact {
     max-width: 40rem;
   }
 }
+@media (min-width: 1300px) {
+  .restaurant__1 {
+    width: 100%;
+    max-width: 35rem;
+  }
+}
 .restaurant__2 {
   position: relative;
   height: 15rem;
@@ -4283,6 +4296,12 @@ footer .contact {
     width: 100%;
     min-width: 30rem;
     max-width: 40rem;
+  }
+}
+@media (min-width: 1300px) {
+  .restaurant__2 {
+    width: 100%;
+    max-width: 35rem;
   }
 }
 .restaurant__3 {
@@ -4403,6 +4422,12 @@ footer .contact {
     max-width: 40rem;
   }
 }
+@media (min-width: 1300px) {
+  .restaurant__3 {
+    width: 100%;
+    max-width: 35rem;
+  }
+}
 .restaurant__4 {
   position: relative;
   height: 15rem;
@@ -4519,5 +4544,11 @@ footer .contact {
     width: 100%;
     min-width: 30rem;
     max-width: 40rem;
+  }
+}
+@media (min-width: 1300px) {
+  .restaurant__4 {
+    width: 100%;
+    max-width: 35rem;
   }
 }/*# sourceMappingURL=styles.css.map */

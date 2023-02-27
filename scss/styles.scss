@@ -516,8 +516,14 @@
     gap: 2rem;
     padding: 1rem 0;
     @include for-desktop {
+      /* @include flex-center(row);
+      height: 20rem; */
+      height: auto;
+      width: 100%;
+      /* min-width: 50rem;
+      max-width: 80rem; */
       @include flex-center(row);
-      height: 20rem;
+      flex-wrap: wrap;
     }
   }
   @for $i from 1 through 4 {
@@ -601,6 +607,10 @@
         width: 100%;
         min-width: 30rem;
         max-width: 40rem;
+      }
+      @include for-desktop {
+        width: 100%;
+        max-width: 35rem;
       }
     }
   }
