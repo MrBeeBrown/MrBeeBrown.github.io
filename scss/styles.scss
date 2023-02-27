@@ -747,8 +747,8 @@
         max-width: 40rem;
       }
       @include for-desktop {
-        width: 100%;
-        max-width: 35rem;
+        height: 25rem;
+        min-width: 35vw;
       }
     }
   }

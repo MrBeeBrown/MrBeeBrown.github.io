@@ -4805,8 +4805,8 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .restaurant__1 {
-    width: 100%;
-    max-width: 35rem;
+    height: 25rem;
+    min-width: 35vw;
   }
 }
 .restaurant__2 {
@@ -4929,8 +4929,8 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .restaurant__2 {
-    width: 100%;
-    max-width: 35rem;
+    height: 25rem;
+    min-width: 35vw;
   }
 }
 .restaurant__3 {
@@ -5053,8 +5053,8 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .restaurant__3 {
-    width: 100%;
-    max-width: 35rem;
+    height: 25rem;
+    min-width: 35vw;
   }
 }
 .restaurant__4 {
@@ -5177,7 +5177,7 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .restaurant__4 {
-    width: 100%;
-    max-width: 35rem;
+    height: 25rem;
+    min-width: 35vw;
   }
 }/*# sourceMappingURL=styles.css.map */
