@@ -693,6 +693,9 @@ footer .contact {
 .resto__1__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -713,6 +716,9 @@ footer .contact {
 .resto__1__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -733,6 +739,9 @@ footer .contact {
 .resto__1__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -753,6 +762,9 @@ footer .contact {
 .resto__1__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -954,6 +966,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -974,6 +989,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -994,6 +1012,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -1014,6 +1035,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -1216,6 +1240,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -1236,6 +1263,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -1256,6 +1286,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -1276,6 +1309,9 @@ footer .contact {
   .resto__1__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -1470,6 +1506,9 @@ footer .contact {
 .resto__1__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -1490,6 +1529,9 @@ footer .contact {
 .resto__1__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -1510,6 +1552,9 @@ footer .contact {
 .resto__1__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -1530,6 +1575,9 @@ footer .contact {
 .resto__1__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -1735,6 +1783,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -1755,6 +1806,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -1775,6 +1829,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -1795,6 +1852,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -2001,6 +2061,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -2021,6 +2084,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -2041,6 +2107,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -2061,6 +2130,9 @@ footer .contact {
   .resto__1__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -2255,6 +2327,9 @@ footer .contact {
 .resto__1__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -2275,6 +2350,9 @@ footer .contact {
 .resto__1__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -2295,6 +2373,9 @@ footer .contact {
 .resto__1__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -2315,6 +2396,9 @@ footer .contact {
 .resto__1__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__1__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -2520,6 +2604,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -2540,6 +2627,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -2560,6 +2650,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -2580,6 +2673,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -2786,6 +2882,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -2806,6 +2905,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -2826,6 +2928,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -2846,6 +2951,9 @@ footer .contact {
   .resto__1__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__1__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -3184,6 +3292,9 @@ footer .contact {
 .resto__2__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -3204,6 +3315,9 @@ footer .contact {
 .resto__2__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -3224,6 +3338,9 @@ footer .contact {
 .resto__2__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -3244,6 +3361,9 @@ footer .contact {
 .resto__2__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -3445,6 +3565,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3465,6 +3588,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3485,6 +3611,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3505,6 +3634,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3707,6 +3839,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3727,6 +3862,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3747,6 +3885,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3767,6 +3908,9 @@ footer .contact {
   .resto__2__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -3961,6 +4105,9 @@ footer .contact {
 .resto__2__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -3981,6 +4128,9 @@ footer .contact {
 .resto__2__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -4001,6 +4151,9 @@ footer .contact {
 .resto__2__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -4021,6 +4174,9 @@ footer .contact {
 .resto__2__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -4226,6 +4382,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4246,6 +4405,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4266,6 +4428,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4286,6 +4451,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4492,6 +4660,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4512,6 +4683,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4532,6 +4706,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4552,6 +4729,9 @@ footer .contact {
   .resto__2__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -4746,6 +4926,9 @@ footer .contact {
 .resto__2__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -4766,6 +4949,9 @@ footer .contact {
 .resto__2__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -4786,6 +4972,9 @@ footer .contact {
 .resto__2__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -4806,6 +4995,9 @@ footer .contact {
 .resto__2__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__2__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -5011,6 +5203,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5031,6 +5226,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5051,6 +5249,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5071,6 +5272,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5277,6 +5481,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5297,6 +5504,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5317,6 +5527,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5337,6 +5550,9 @@ footer .contact {
   .resto__2__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__2__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -5675,6 +5891,9 @@ footer .contact {
 .resto__3__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -5695,6 +5914,9 @@ footer .contact {
 .resto__3__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -5715,6 +5937,9 @@ footer .contact {
 .resto__3__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -5735,6 +5960,9 @@ footer .contact {
 .resto__3__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -5936,6 +6164,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -5956,6 +6187,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -5976,6 +6210,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -5996,6 +6233,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -6198,6 +6438,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -6218,6 +6461,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -6238,6 +6484,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -6258,6 +6507,9 @@ footer .contact {
   .resto__3__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -6452,6 +6704,9 @@ footer .contact {
 .resto__3__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -6472,6 +6727,9 @@ footer .contact {
 .resto__3__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -6492,6 +6750,9 @@ footer .contact {
 .resto__3__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -6512,6 +6773,9 @@ footer .contact {
 .resto__3__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -6717,6 +6981,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -6737,6 +7004,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -6757,6 +7027,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -6777,6 +7050,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -6983,6 +7259,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -7003,6 +7282,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -7023,6 +7305,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -7043,6 +7328,9 @@ footer .contact {
   .resto__3__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -7237,6 +7525,9 @@ footer .contact {
 .resto__3__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -7257,6 +7548,9 @@ footer .contact {
 .resto__3__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -7277,6 +7571,9 @@ footer .contact {
 .resto__3__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -7297,6 +7594,9 @@ footer .contact {
 .resto__3__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__3__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -7502,6 +7802,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -7522,6 +7825,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -7542,6 +7848,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -7562,6 +7871,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -7768,6 +8080,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -7788,6 +8103,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -7808,6 +8126,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -7828,6 +8149,9 @@ footer .contact {
   .resto__3__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__3__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -8166,6 +8490,9 @@ footer .contact {
 .resto__4__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -8186,6 +8513,9 @@ footer .contact {
 .resto__4__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -8206,6 +8536,9 @@ footer .contact {
 .resto__4__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -8226,6 +8559,9 @@ footer .contact {
 .resto__4__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
   font-weight: 700;
@@ -8427,6 +8763,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8447,6 +8786,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8467,6 +8809,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8487,6 +8832,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8689,6 +9037,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__1_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8709,6 +9060,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__2_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8729,6 +9083,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__3_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8749,6 +9106,9 @@ footer .contact {
   .resto__4__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__entrees__cartes .resto__4_menu__entrees__cartes__dishes__name {
     font-weight: 700;
@@ -8943,6 +9303,9 @@ footer .contact {
 .resto__4__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -8963,6 +9326,9 @@ footer .contact {
 .resto__4__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -8983,6 +9349,9 @@ footer .contact {
 .resto__4__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -9003,6 +9372,9 @@ footer .contact {
 .resto__4__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
   font-weight: 700;
@@ -9208,6 +9580,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9228,6 +9603,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9248,6 +9626,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9268,6 +9649,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9474,6 +9858,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__1_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__1_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9494,6 +9881,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__2_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9514,6 +9904,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__3_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9534,6 +9927,9 @@ footer .contact {
   .resto__4__menu__plats__cartes .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__plats__cartes .resto__4_menu__plats__cartes__dishes__name {
     font-weight: 700;
@@ -9728,6 +10124,9 @@ footer .contact {
 .resto__4__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -9748,6 +10147,9 @@ footer .contact {
 .resto__4__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -9768,6 +10170,9 @@ footer .contact {
 .resto__4__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -9788,6 +10193,9 @@ footer .contact {
 .resto__4__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
   margin: auto 0;
   padding: 1rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .resto__4__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
   font-weight: 700;
@@ -9993,6 +10401,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -10013,6 +10424,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -10033,6 +10447,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -10053,6 +10470,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -10259,6 +10679,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__1_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -10279,6 +10702,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__2_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -10299,6 +10725,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__3_menu__desserts__cartes__dishes__name {
     font-weight: 700;
@@ -10319,6 +10748,9 @@ footer .contact {
   .resto__4__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
     padding: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
   .resto__4__menu__desserts__cartes .resto__4_menu__desserts__cartes__dishes__name {
     font-weight: 700;
