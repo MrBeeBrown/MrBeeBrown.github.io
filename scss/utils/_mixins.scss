@@ -225,6 +225,23 @@
       font-size: 1.5rem;
     }
   }
+  @keyframes turn {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes slide {
+    100% {
+      margin-right: 0;
+    }
+  }
+  &:hover .resto__1__menu__check {
+    animation: slide 1s 1 forwards;
+    .fa-circle-check {
+      animation: turn 500ms 1;
+      animation-delay: 250ms;
+    }
+  }
 }
 
 @mixin menu-entrees {
@@ -239,9 +256,10 @@
     font-size: 0.9rem;
   }
   .resto__1_menu__entrees__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__2_menu__entrees__cartes__dishes {
     margin: auto 0;
@@ -254,9 +272,10 @@
     font-size: 0.9rem;
   }
   .resto__2_menu__entrees__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__3_menu__entrees__cartes__dishes {
     margin: auto 0;
@@ -269,9 +288,10 @@
     font-size: 0.9rem;
   }
   .resto__3_menu__entrees__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__4_menu__entrees__cartes__dishes {
     margin: auto 0;
@@ -284,12 +304,10 @@
     font-size: 0.9rem;
   }
   .resto__4_menu__entrees__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
-  }
-  &:hover .resto__1__menu__check {
-    margin-right: 0;
+    display: flex;
+    align-items: flex-end;
   }
 }
 
@@ -305,9 +323,10 @@
     font-size: 0.9rem;
   }
   .resto__1_menu__plats__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__2_menu__plats__cartes__dishes {
     margin: auto 0;
@@ -320,9 +339,10 @@
     font-size: 0.9rem;
   }
   .resto__2_menu__plats__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__3_menu__plats__cartes__dishes {
     margin: auto 0;
@@ -335,9 +355,10 @@
     font-size: 0.9rem;
   }
   .resto__3_menu__plats__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__4_menu__plats__cartes__dishes {
     margin: auto 0;
@@ -350,12 +371,10 @@
     font-size: 0.9rem;
   }
   .resto__4_menu__plats__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
-  }
-  &:hover .resto__1__menu__check {
-    margin-right: 0;
+    display: flex;
+    align-items: flex-end;
   }
 }
 
@@ -371,9 +390,10 @@
     font-size: 0.9rem;
   }
   .resto__1_menu__desserts__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__2_menu__desserts__cartes__dishes {
     margin: auto 0;
@@ -386,9 +406,10 @@
     font-size: 0.9rem;
   }
   .resto__2_menu__desserts__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__3_menu__desserts__cartes__dishes {
     margin: auto 0;
@@ -401,9 +422,10 @@
     font-size: 0.9rem;
   }
   .resto__3_menu__desserts__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
+    display: flex;
+    align-items: flex-end;
   }
   .resto__4_menu__desserts__cartes__dishes {
     margin: auto 0;
@@ -416,11 +438,9 @@
     font-size: 0.9rem;
   }
   .resto__4_menu__desserts__cartes__price {
-    margin-left: auto;
-    margin-right: 1rem;
+    margin: auto 1rem auto auto;
     font-weight: 700;
-  }
-  &:hover .resto__1__menu__check {
-    margin-right: 0;
+    display: flex;
+    align-items: flex-end;
   }
 }
