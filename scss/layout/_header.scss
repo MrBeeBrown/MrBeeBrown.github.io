@@ -41,9 +41,10 @@
   .fa-arrow-left {
     position: absolute;
     left: 1rem;
-    top: 1.5rem;
+    top: 1rem;
+    font-size: 2rem;
     &:active {
-      transform: scale(0.9);
+      transform: scale(0.7);
     }
   }
   p {

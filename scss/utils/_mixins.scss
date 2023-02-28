@@ -236,10 +236,10 @@
     }
   }
   &:hover .resto__1__menu__check {
-    animation: slide 1s 1 forwards;
+    animation: slide 600ms 1 forwards;
     .fa-circle-check {
       animation: turn 500ms 1;
-      animation-delay: 250ms;
+      animation-delay: 200ms;
     }
   }
 }

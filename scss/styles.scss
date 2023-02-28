@@ -118,6 +118,7 @@
             overflow: hidden;
             @include menu-check;
             @include menu-entrees;
+            @include menu-slide;
           }
           @include for-tablet {
             @include flex-center(column);
@@ -141,6 +142,7 @@
               overflow: hidden;
               @include menu-check;
               @include menu-entrees;
+              @include menu-slide;
             }
           }
           @include for-desktop {
@@ -165,6 +167,7 @@
               overflow: hidden;
               @include menu-check;
               @include menu-entrees;
+              @include menu-slide;
             }
           }
         }
@@ -186,6 +189,8 @@
             overflow: hidden;
             @include menu-check;
             @include menu-plats;
+            @include menu-slide;
+            animation-delay: 250ms;
           }
           @include for-tablet {
             @include flex-center(column);
@@ -209,6 +214,8 @@
               overflow: hidden;
               @include menu-check;
               @include menu-plats;
+              @include menu-slide;
+              animation-delay: 250ms;
             }
           }
           @include for-desktop {
@@ -233,6 +240,8 @@
               overflow: hidden;
               @include menu-check;
               @include menu-plats;
+              @include menu-slide;
+              animation-delay: 250ms;
             }
           }
         }
@@ -254,6 +263,8 @@
             overflow: hidden;
             @include menu-check;
             @include menu-desserts;
+            @include menu-slide;
+            animation-delay: 500ms;
           }
           @include for-tablet {
             @include flex-center(column);
@@ -277,6 +288,8 @@
               overflow: hidden;
               @include menu-check;
               @include menu-desserts;
+              @include menu-slide;
+              animation-delay: 500ms;
             }
           }
           @include for-desktop {
@@ -301,6 +314,8 @@
               overflow: hidden;
               @include menu-check;
               @include menu-desserts;
+              @include menu-slide;
+              animation-delay: 500ms;
             }
           }
         }
