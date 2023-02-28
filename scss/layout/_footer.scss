@@ -3,8 +3,7 @@
 @use "../utils/mixins" as mixins;
 
 footer {
-  padding-inline: 1rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
   background-color: colors.$gray-footer;
   height: 15rem;
   .logo {
@@ -35,7 +34,6 @@ footer {
   }
   @include mixins.for-tablet {
     @include mixins.flex-center(column);
-    height: 15rem;
     .logo {
       font-size: 1.5rem;
     }
@@ -43,7 +41,6 @@ footer {
   @include mixins.for-desktop {
     @include mixins.flex-center(row);
     gap: 2rem;
-    height: 15rem;
     .logo {
       font-size: 1.9rem;
     }
