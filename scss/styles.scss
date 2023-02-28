@@ -107,6 +107,7 @@
             @include flex-left(row);
             @include underline;
             @include underline-menu;
+            @include menu-slide;
           }
           &__cartes {
             display: flex;
@@ -130,6 +131,7 @@
               @include flex-left(row);
               @include underline;
               @include underline-menu-tablet;
+              @include menu-slide;
             }
             &__cartes {
               display: flex;
@@ -155,6 +157,7 @@
               @include flex-left(row);
               @include underline;
               @include underline-menu-desktop;
+              @include menu-slide;
             }
             &__cartes {
               display: flex;
@@ -178,6 +181,8 @@
             @include flex-left(row);
             @include underline;
             @include underline-menu;
+            @include menu-slide;
+            animation-delay: 250ms;
           }
           &__cartes {
             display: flex;
@@ -202,6 +207,8 @@
               @include flex-left(row);
               @include underline;
               @include underline-menu-tablet;
+              @include menu-slide;
+              animation-delay: 250ms;
             }
             &__cartes {
               display: flex;
@@ -228,6 +235,8 @@
               @include flex-left(row);
               @include underline;
               @include underline-menu-desktop;
+              @include menu-slide;
+              animation-delay: 250ms;
             }
             &__cartes {
               display: flex;
@@ -252,6 +261,8 @@
             @include flex-left(row);
             @include underline;
             @include underline-menu;
+            @include menu-slide;
+            animation-delay: 500ms;
           }
           &__cartes {
             display: flex;
@@ -276,6 +287,8 @@
               @include flex-left(row);
               @include underline;
               @include underline-menu-tablet;
+              @include menu-slide;
+              animation-delay: 500ms;
             }
             &__cartes {
               display: flex;
@@ -302,6 +315,8 @@
               @include flex-left(row);
               @include underline;
               @include underline-menu-desktop;
+              @include menu-slide;
+              animation-delay: 500ms;
             }
             &__cartes {
               display: flex;

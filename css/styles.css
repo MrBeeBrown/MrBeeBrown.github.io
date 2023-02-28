@@ -548,6 +548,8 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
 }
 .resto__1__menu__entrees .title::after {
   content: "";
@@ -806,6 +808,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__1__menu__entrees .title::after {
     content: "";
@@ -1066,6 +1070,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__1__menu__entrees .title::after {
     content: "";
@@ -1326,6 +1332,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
 }
 .resto__1__menu__plats .title::after {
   content: "";
@@ -1575,6 +1585,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__1__menu__plats .title::after {
     content: "";
@@ -1837,6 +1851,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__1__menu__plats .title::after {
     content: "";
@@ -2099,6 +2117,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
 }
 .resto__1__menu__desserts .title::after {
   content: "";
@@ -2348,6 +2370,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__1__menu__desserts .title::after {
     content: "";
@@ -2610,6 +2636,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__1__menu__desserts .title::after {
     content: "";
@@ -3020,6 +3050,8 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
 }
 .resto__2__menu__entrees .title::after {
   content: "";
@@ -3267,6 +3299,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__2__menu__entrees .title::after {
     content: "";
@@ -3527,6 +3561,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__2__menu__entrees .title::after {
     content: "";
@@ -3787,6 +3823,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
 }
 .resto__2__menu__plats .title::after {
   content: "";
@@ -4036,6 +4076,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__2__menu__plats .title::after {
     content: "";
@@ -4298,6 +4342,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__2__menu__plats .title::after {
     content: "";
@@ -4560,6 +4608,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
 }
 .resto__2__menu__desserts .title::after {
   content: "";
@@ -4809,6 +4861,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__2__menu__desserts .title::after {
     content: "";
@@ -5071,6 +5127,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__2__menu__desserts .title::after {
     content: "";
@@ -5481,6 +5541,8 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
 }
 .resto__3__menu__entrees .title::after {
   content: "";
@@ -5728,6 +5790,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__3__menu__entrees .title::after {
     content: "";
@@ -5988,6 +6052,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__3__menu__entrees .title::after {
     content: "";
@@ -6248,6 +6314,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
 }
 .resto__3__menu__plats .title::after {
   content: "";
@@ -6497,6 +6567,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__3__menu__plats .title::after {
     content: "";
@@ -6759,6 +6833,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__3__menu__plats .title::after {
     content: "";
@@ -7021,6 +7099,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
 }
 .resto__3__menu__desserts .title::after {
   content: "";
@@ -7270,6 +7352,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__3__menu__desserts .title::after {
     content: "";
@@ -7532,6 +7618,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__3__menu__desserts .title::after {
     content: "";
@@ -7942,6 +8032,8 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
 }
 .resto__4__menu__entrees .title::after {
   content: "";
@@ -8189,6 +8281,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__4__menu__entrees .title::after {
     content: "";
@@ -8449,6 +8543,8 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
   }
   .resto__4__menu__entrees .title::after {
     content: "";
@@ -8709,6 +8805,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 250ms;
+          animation-delay: 250ms;
 }
 .resto__4__menu__plats .title::after {
   content: "";
@@ -8958,6 +9058,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__4__menu__plats .title::after {
     content: "";
@@ -9220,6 +9324,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 250ms;
+            animation-delay: 250ms;
   }
   .resto__4__menu__plats .title::after {
     content: "";
@@ -9482,6 +9590,10 @@ footer .contact {
   border-bottom: 4px solid #99e2d0;
   text-transform: uppercase;
   position: relative;
+  -webkit-animation: slide-in 1s 1 forwards;
+          animation: slide-in 1s 1 forwards;
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
 }
 .resto__4__menu__desserts .title::after {
   content: "";
@@ -9731,6 +9843,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__4__menu__desserts .title::after {
     content: "";
@@ -9993,6 +10109,10 @@ footer .contact {
     border-bottom: 4px solid #99e2d0;
     text-transform: uppercase;
     position: relative;
+    -webkit-animation: slide-in 1s 1 forwards;
+            animation: slide-in 1s 1 forwards;
+    -webkit-animation-delay: 500ms;
+            animation-delay: 500ms;
   }
   .resto__4__menu__desserts .title::after {
     content: "";
