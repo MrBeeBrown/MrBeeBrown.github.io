@@ -429,7 +429,7 @@ footer .contact {
 }
 .resto__1__title {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   background-color: rgb(247, 245, 245);
@@ -815,8 +815,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -1594,8 +1594,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -2379,8 +2379,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -2931,7 +2931,7 @@ footer .contact {
 }
 .resto__2__title {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   background-color: rgb(247, 245, 245);
@@ -3306,8 +3306,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -4085,8 +4085,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -4870,8 +4870,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -5422,7 +5422,7 @@ footer .contact {
 }
 .resto__3__title {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   background-color: rgb(247, 245, 245);
@@ -5797,8 +5797,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -6576,8 +6576,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -7361,8 +7361,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -7913,7 +7913,7 @@ footer .contact {
 }
 .resto__4__title {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
   background-color: rgb(247, 245, 245);
@@ -8288,8 +8288,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -9067,8 +9067,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -9852,8 +9852,8 @@ footer .contact {
     content: "";
     position: absolute;
     width: 94%;
-    height: 4px;
-    bottom: -4px;
+    height: 6px;
+    bottom: -5px;
     right: 0;
     background-color: rgb(247, 245, 245);
   }
@@ -11206,7 +11206,7 @@ footer .contact {
           box-shadow: 0px 15px 20px 3px rgba(0, 0, 0, 0.27);
 }
 .restaurant__1__img {
-  height: 80%;
+  height: 70%;
 }
 .restaurant__1__img .a-img {
   width: 100%;
@@ -11251,7 +11251,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20%;
+  height: 30%;
   padding: 1rem;
   position: relative;
 }
@@ -11346,7 +11346,7 @@ footer .contact {
           box-shadow: 0px 15px 20px 3px rgba(0, 0, 0, 0.27);
 }
 .restaurant__2__img {
-  height: 80%;
+  height: 70%;
 }
 .restaurant__2__img .a-img {
   width: 100%;
@@ -11391,7 +11391,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20%;
+  height: 30%;
   padding: 1rem;
   position: relative;
 }
@@ -11486,7 +11486,7 @@ footer .contact {
           box-shadow: 0px 15px 20px 3px rgba(0, 0, 0, 0.27);
 }
 .restaurant__3__img {
-  height: 80%;
+  height: 70%;
 }
 .restaurant__3__img .a-img {
   width: 100%;
@@ -11531,7 +11531,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20%;
+  height: 30%;
   padding: 1rem;
   position: relative;
 }
@@ -11626,7 +11626,7 @@ footer .contact {
           box-shadow: 0px 15px 20px 3px rgba(0, 0, 0, 0.27);
 }
 .restaurant__4__img {
-  height: 80%;
+  height: 70%;
 }
 .restaurant__4__img .a-img {
   width: 100%;
@@ -11671,7 +11671,7 @@ footer .contact {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 20%;
+  height: 30%;
   padding: 1rem;
   position: relative;
 }
