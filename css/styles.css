@@ -485,10 +485,10 @@ footer .contact {
 .resto__1__title__like .fa-heart:nth-child(2) {
   opacity: 0;
 }
-.resto__1__title__like .fa-heart:hover:nth-child(1) {
+.resto__1__title__like .fa-heart:active:nth-child(1) {
   opacity: 0;
 }
-.resto__1__title__like .fa-heart:hover:nth-child(2) {
+.resto__1__title__like .fa-heart:active:nth-child(2) {
   opacity: 1;
   color: #9356dc;
 }
@@ -2987,10 +2987,10 @@ footer .contact {
 .resto__2__title__like .fa-heart:nth-child(2) {
   opacity: 0;
 }
-.resto__2__title__like .fa-heart:hover:nth-child(1) {
+.resto__2__title__like .fa-heart:active:nth-child(1) {
   opacity: 0;
 }
-.resto__2__title__like .fa-heart:hover:nth-child(2) {
+.resto__2__title__like .fa-heart:active:nth-child(2) {
   opacity: 1;
   color: #9356dc;
 }
@@ -5478,10 +5478,10 @@ footer .contact {
 .resto__3__title__like .fa-heart:nth-child(2) {
   opacity: 0;
 }
-.resto__3__title__like .fa-heart:hover:nth-child(1) {
+.resto__3__title__like .fa-heart:active:nth-child(1) {
   opacity: 0;
 }
-.resto__3__title__like .fa-heart:hover:nth-child(2) {
+.resto__3__title__like .fa-heart:active:nth-child(2) {
   opacity: 1;
   color: #9356dc;
 }
@@ -7969,10 +7969,10 @@ footer .contact {
 .resto__4__title__like .fa-heart:nth-child(2) {
   opacity: 0;
 }
-.resto__4__title__like .fa-heart:hover:nth-child(1) {
+.resto__4__title__like .fa-heart:active:nth-child(1) {
   opacity: 0;
 }
-.resto__4__title__like .fa-heart:hover:nth-child(2) {
+.resto__4__title__like .fa-heart:active:nth-child(2) {
   opacity: 1;
   color: #9356dc;
 }
@@ -11308,13 +11308,6 @@ footer .contact {
 .restaurant__1__like .fa-heart:nth-child(2) {
   opacity: 0;
 }
-.restaurant__1__like .fa-heart:hover:nth-child(1) {
-  opacity: 0;
-}
-.restaurant__1__like .fa-heart:hover:nth-child(2) {
-  opacity: 1;
-  color: #9356dc;
-}
 .restaurant__1__like .fa-heart:active:nth-child(1) {
   opacity: 0;
 }
@@ -11454,13 +11447,6 @@ footer .contact {
 }
 .restaurant__2__like .fa-heart:nth-child(2) {
   opacity: 0;
-}
-.restaurant__2__like .fa-heart:hover:nth-child(1) {
-  opacity: 0;
-}
-.restaurant__2__like .fa-heart:hover:nth-child(2) {
-  opacity: 1;
-  color: #9356dc;
 }
 .restaurant__2__like .fa-heart:active:nth-child(1) {
   opacity: 0;
@@ -11602,13 +11588,6 @@ footer .contact {
 .restaurant__3__like .fa-heart:nth-child(2) {
   opacity: 0;
 }
-.restaurant__3__like .fa-heart:hover:nth-child(1) {
-  opacity: 0;
-}
-.restaurant__3__like .fa-heart:hover:nth-child(2) {
-  opacity: 1;
-  color: #9356dc;
-}
 .restaurant__3__like .fa-heart:active:nth-child(1) {
   opacity: 0;
 }
@@ -11748,13 +11727,6 @@ footer .contact {
 }
 .restaurant__4__like .fa-heart:nth-child(2) {
   opacity: 0;
-}
-.restaurant__4__like .fa-heart:hover:nth-child(1) {
-  opacity: 0;
-}
-.restaurant__4__like .fa-heart:hover:nth-child(2) {
-  opacity: 1;
-  color: #9356dc;
 }
 .restaurant__4__like .fa-heart:active:nth-child(1) {
   opacity: 0;
