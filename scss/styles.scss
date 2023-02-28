@@ -182,7 +182,7 @@
             @include underline;
             @include underline-menu;
             @include menu-slide;
-            animation-delay: 250ms;
+            animation-delay: 100ms;
           }
           &__cartes {
             display: flex;
@@ -195,7 +195,7 @@
             @include menu-check;
             @include menu-plats;
             @include menu-slide;
-            animation-delay: 250ms;
+            animation-delay: 100ms;
           }
           @include for-tablet {
             @include flex-center(column);
@@ -208,7 +208,7 @@
               @include underline;
               @include underline-menu-tablet;
               @include menu-slide;
-              animation-delay: 250ms;
+              animation-delay: 100ms;
             }
             &__cartes {
               display: flex;
@@ -222,7 +222,7 @@
               @include menu-check;
               @include menu-plats;
               @include menu-slide;
-              animation-delay: 250ms;
+              animation-delay: 100ms;
             }
           }
           @include for-desktop {
@@ -236,7 +236,7 @@
               @include underline;
               @include underline-menu-desktop;
               @include menu-slide;
-              animation-delay: 250ms;
+              animation-delay: 100ms;
             }
             &__cartes {
               display: flex;
@@ -250,7 +250,7 @@
               @include menu-check;
               @include menu-plats;
               @include menu-slide;
-              animation-delay: 250ms;
+              animation-delay: 100ms;
             }
           }
         }
@@ -262,7 +262,7 @@
             @include underline;
             @include underline-menu;
             @include menu-slide;
-            animation-delay: 500ms;
+            animation-delay: 200ms;
           }
           &__cartes {
             display: flex;
@@ -275,7 +275,7 @@
             @include menu-check;
             @include menu-desserts;
             @include menu-slide;
-            animation-delay: 500ms;
+            animation-delay: 200ms;
           }
           @include for-tablet {
             @include flex-center(column);
@@ -288,7 +288,7 @@
               @include underline;
               @include underline-menu-tablet;
               @include menu-slide;
-              animation-delay: 500ms;
+              animation-delay: 200ms;
             }
             &__cartes {
               display: flex;
@@ -302,7 +302,7 @@
               @include menu-check;
               @include menu-desserts;
               @include menu-slide;
-              animation-delay: 500ms;
+              animation-delay: 200ms;
             }
           }
           @include for-desktop {
@@ -316,7 +316,7 @@
               @include underline;
               @include underline-menu-desktop;
               @include menu-slide;
-              animation-delay: 500ms;
+              animation-delay: 200ms;
             }
             &__cartes {
               display: flex;
@@ -330,7 +330,7 @@
               @include menu-check;
               @include menu-desserts;
               @include menu-slide;
-              animation-delay: 500ms;
+              animation-delay: 200ms;
             }
           }
         }

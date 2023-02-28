@@ -1334,8 +1334,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__1__menu__plats .title::after {
   content: "";
@@ -1359,8 +1359,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__1__menu__plats__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -1587,8 +1587,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__1__menu__plats .title::after {
     content: "";
@@ -1613,8 +1613,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__1__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -1853,8 +1853,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__1__menu__plats .title::after {
     content: "";
@@ -1879,8 +1879,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__1__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -2119,8 +2119,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__1__menu__desserts .title::after {
   content: "";
@@ -2144,8 +2144,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__1__menu__desserts__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -2372,8 +2372,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__1__menu__desserts .title::after {
     content: "";
@@ -2398,8 +2398,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__1__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -2638,8 +2638,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__1__menu__desserts .title::after {
     content: "";
@@ -2664,8 +2664,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__1__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -3825,8 +3825,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__2__menu__plats .title::after {
   content: "";
@@ -3850,8 +3850,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__2__menu__plats__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -4078,8 +4078,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__2__menu__plats .title::after {
     content: "";
@@ -4104,8 +4104,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__2__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -4344,8 +4344,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__2__menu__plats .title::after {
     content: "";
@@ -4370,8 +4370,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__2__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -4610,8 +4610,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__2__menu__desserts .title::after {
   content: "";
@@ -4635,8 +4635,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__2__menu__desserts__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -4863,8 +4863,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__2__menu__desserts .title::after {
     content: "";
@@ -4889,8 +4889,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__2__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -5129,8 +5129,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__2__menu__desserts .title::after {
     content: "";
@@ -5155,8 +5155,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__2__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -6316,8 +6316,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__3__menu__plats .title::after {
   content: "";
@@ -6341,8 +6341,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__3__menu__plats__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -6569,8 +6569,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__3__menu__plats .title::after {
     content: "";
@@ -6595,8 +6595,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__3__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -6835,8 +6835,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__3__menu__plats .title::after {
     content: "";
@@ -6861,8 +6861,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__3__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -7101,8 +7101,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__3__menu__desserts .title::after {
   content: "";
@@ -7126,8 +7126,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__3__menu__desserts__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -7354,8 +7354,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__3__menu__desserts .title::after {
     content: "";
@@ -7380,8 +7380,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__3__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -7620,8 +7620,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__3__menu__desserts .title::after {
     content: "";
@@ -7646,8 +7646,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__3__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -8807,8 +8807,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__4__menu__plats .title::after {
   content: "";
@@ -8832,8 +8832,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 250ms;
-          animation-delay: 250ms;
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
 }
 .resto__4__menu__plats__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -9060,8 +9060,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__4__menu__plats .title::after {
     content: "";
@@ -9086,8 +9086,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__4__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -9326,8 +9326,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__4__menu__plats .title::after {
     content: "";
@@ -9352,8 +9352,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 250ms;
-            animation-delay: 250ms;
+    -webkit-animation-delay: 100ms;
+            animation-delay: 100ms;
   }
   .resto__4__menu__plats__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -9592,8 +9592,8 @@ footer .contact {
   position: relative;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__4__menu__desserts .title::after {
   content: "";
@@ -9617,8 +9617,8 @@ footer .contact {
   overflow: hidden;
   -webkit-animation: slide-in 1s 1 forwards;
           animation: slide-in 1s 1 forwards;
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
 }
 .resto__4__menu__desserts__cartes .resto__1__menu__check {
   background-color: #99e2d0;
@@ -9845,8 +9845,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__4__menu__desserts .title::after {
     content: "";
@@ -9871,8 +9871,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__4__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
@@ -10111,8 +10111,8 @@ footer .contact {
     position: relative;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__4__menu__desserts .title::after {
     content: "";
@@ -10137,8 +10137,8 @@ footer .contact {
     overflow: hidden;
     -webkit-animation: slide-in 1s 1 forwards;
             animation: slide-in 1s 1 forwards;
-    -webkit-animation-delay: 500ms;
-            animation-delay: 500ms;
+    -webkit-animation-delay: 200ms;
+            animation-delay: 200ms;
   }
   .resto__4__menu__desserts__cartes .resto__1__menu__check {
     background-color: #99e2d0;
