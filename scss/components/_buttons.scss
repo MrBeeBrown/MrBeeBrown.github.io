@@ -44,7 +44,8 @@
 .btn__command {
   border: none;
   border-radius: 2rem;
-  padding: 1rem 4rem;
+  padding: 0.7rem;
+  width: 12rem;
   font-size: 1rem;
   font-family: fonts.$text-font;
   background-image: colors.$gradient;
@@ -61,8 +62,10 @@
   }
   @include mixins.for-tablet {
     width: 24rem;
+    padding: 1rem;
   }
   @include mixins.for-desktop {
     width: 30rem;
+    padding: 1rem;
   }
 }

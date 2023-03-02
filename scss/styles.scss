@@ -44,22 +44,21 @@
       }
       &__title {
         position: absolute;
+        @include flex-between(row);
+        padding-inline: 1rem;
         bottom: -1px;
         border-top-left-radius: 2rem;
         border-top-right-radius: 2rem;
         background-color: $gray-background;
         height: 5rem;
         width: 100%;
-        min-width: 15rem;
         z-index: 1;
         &__name {
           @include flex-center(row);
-          gap: 5rem;
           height: 5rem;
-          position: relative;
           p {
-            font-family: $text-font;
-            font-size: 1.2rem;
+            font-family: $title-font;
+            font-size: 1.3rem;
             font-weight: 700;
             @include for-tablet {
               font-size: 1.5rem;
@@ -73,8 +72,11 @@
           .fa-heart {
             position: absolute;
             top: 25%;
-            right: 30%;
+            right: 2.5%;
             @include heart-fill;
+            @include for-desktop {
+              font-size: 1.9rem;
+            }
           }
         }
       }
@@ -84,247 +86,597 @@
         padding: 3rem 1rem;
         background-color: $gray-background;
         font-family: $text-font;
-        &__entrees {
-          @include flex-center(column);
-          @include menu;
-          .title {
-            @include flex-left(row);
-            @include underline;
-            @include underline-menu;
-            @include menu-slide;
-          }
-          &__cartes {
-            display: flex;
-            background-color: $white-font;
-            width: 100%;
-            border-radius: 1rem;
-            box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-            overflow: hidden;
-            @include menu-check;
-            @include menu-entrees;
-            @include menu-slide;
-          }
-          @include for-tablet {
-            @include flex-center(column);
-            gap: 2rem;
-            width: 100%;
-            max-width: 40rem;
-            padding-bottom: 2rem;
-            .title {
-              @include flex-left(row);
-              @include underline;
-              @include underline-menu-tablet;
-              @include menu-slide;
-            }
-            &__cartes {
-              display: flex;
-              background-color: $white-font;
-              width: 100%;
-              height: 7rem;
-              border-radius: 1rem;
-              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-              cursor: pointer;
-              overflow: hidden;
-              @include menu-check;
-              @include menu-entrees;
-              @include menu-slide;
-            }
-          }
-          @include for-desktop {
-            @include flex-center(column);
-            gap: 2rem;
-            width: 100%;
-            max-width: 25rem;
-            padding-bottom: 2rem;
-            .title {
-              @include flex-left(row);
-              @include underline;
-              @include underline-menu-desktop;
-              @include menu-slide;
-            }
-            &__cartes {
-              display: flex;
-              background-color: $white-font;
-              width: 100%;
-              height: 7rem;
-              border-radius: 1rem;
-              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-              cursor: pointer;
-              overflow: hidden;
-              @include menu-check;
-              @include menu-entrees;
-              @include menu-slide;
-            }
-          }
-        }
-        &__plats {
-          @include flex-center(column);
-          @include menu;
-          .title {
-            @include flex-left(row);
-            @include underline;
-            @include underline-menu;
-            @include menu-slide;
-            animation-delay: 200ms;
-          }
-          &__cartes {
-            display: flex;
-            width: 100%;
-            background-color: $white-font;
-            border-radius: 1rem;
-            box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-            overflow: hidden;
-            @include menu-check;
-            @include menu-plats;
-            @include menu-slide;
-            animation-delay: 200ms;
-          }
-          @include for-tablet {
-            @include flex-center(column);
-            gap: 2rem;
-            width: 100%;
-            max-width: 40rem;
-            padding-bottom: 2rem;
-            .title {
-              @include flex-left(row);
-              @include underline;
-              @include underline-menu-tablet;
-              @include menu-slide;
-              animation-delay: 200ms;
-            }
-            &__cartes {
-              display: flex;
-              width: 100%;
-              height: 7rem;
-              background-color: $white-font;
-              border-radius: 1rem;
-              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-              cursor: pointer;
-              overflow: hidden;
-              @include menu-check;
-              @include menu-plats;
-              @include menu-slide;
-              animation-delay: 200ms;
-            }
-          }
-          @include for-desktop {
-            @include flex-center(column);
-            gap: 2rem;
-            width: 100%;
-            max-width: 25rem;
-            padding-bottom: 2rem;
-            .title {
-              @include flex-left(row);
-              @include underline;
-              @include underline-menu-desktop;
-              @include menu-slide;
-              animation-delay: 200ms;
-            }
-            &__cartes {
-              display: flex;
-              width: 100%;
-              height: 7rem;
-              background-color: $white-font;
-              border-radius: 1rem;
-              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-              cursor: pointer;
-              overflow: hidden;
-              @include menu-check;
-              @include menu-plats;
-              @include menu-slide;
-              animation-delay: 200ms;
-            }
-          }
-        }
-        &__desserts {
-          @include flex-center(column);
-          @include menu;
-          .title {
-            @include flex-left(row);
-            @include underline;
-            @include underline-menu;
-            @include menu-slide;
-            animation-delay: 300ms;
-          }
-          &__cartes {
-            display: flex;
-            width: 100%;
-            background-color: $white-font;
-            border-radius: 1rem;
-            box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-            cursor: pointer;
-            overflow: hidden;
-            @include menu-check;
-            @include menu-desserts;
-            @include menu-slide;
-            animation-delay: 300ms;
-          }
-          @include for-tablet {
-            @include flex-center(column);
-            gap: 2rem;
-            width: 100%;
-            max-width: 40rem;
-            padding-bottom: 2rem;
-            .title {
-              @include flex-left(row);
-              @include underline;
-              @include underline-menu-tablet;
-              @include menu-slide;
-              animation-delay: 300ms;
-            }
-            &__cartes {
-              display: flex;
-              width: 100%;
-              height: 7rem;
-              background-color: $white-font;
-              border-radius: 1rem;
-              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-              cursor: pointer;
-              overflow: hidden;
-              @include menu-check;
-              @include menu-desserts;
-              @include menu-slide;
-              animation-delay: 300ms;
-            }
-          }
-          @include for-desktop {
-            @include flex-center(column);
-            gap: 2rem;
-            width: 100%;
-            max-width: 25rem;
-            padding-bottom: 2rem;
-            .title {
-              @include flex-left(row);
-              @include underline;
-              @include underline-menu-desktop;
-              @include menu-slide;
-              animation-delay: 300ms;
-            }
-            &__cartes {
-              display: flex;
-              width: 100%;
-              height: 7rem;
-              background-color: $white-font;
-              border-radius: 1rem;
-              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
-              cursor: pointer;
-              overflow: hidden;
-              @include menu-check;
-              @include menu-desserts;
-              @include menu-slide;
-              animation-delay: 300ms;
-            }
-          }
-        }
-        .content {
+        &__content {
           width: 100%;
           padding-bottom: 2rem;
           @include flex-center(column);
+          &__entrees {
+            @include flex-center(column);
+            @include menu;
+            .title {
+              @include flex-left(row);
+              @include underline;
+              @include underline-menu;
+              @include menu-slide;
+            }
+            &__cartes {
+              display: flex;
+              background-color: $white-font;
+              width: 100%;
+              min-width: 10rem;
+              border-radius: 1rem;
+              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              overflow: hidden;
+              @include menu-slide;
+              &__dishes {
+                margin: auto 0;
+                padding: 1rem;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                &__name {
+                  font-weight: 700;
+                  font-size: 1rem;
+                }
+                &__info {
+                  font-size: 0.8rem;
+                }
+              }
+              &__price {
+                margin: auto 1rem auto auto;
+                font-weight: 700;
+                font-size: 1rem;
+                display: flex;
+                align-items: flex-end;
+              }
+              @keyframes turn {
+                100% {
+                  transform: rotate(360deg);
+                }
+              }
+              @keyframes slide {
+                100% {
+                  margin-right: 0;
+                }
+              }
+              &:hover .slide {
+                animation: slide 600ms 1 forwards;
+                .fa-circle-check {
+                  animation: turn 500ms 1;
+                  animation-delay: 200ms;
+                }
+              }
+            }
+            @include for-tablet {
+              @include flex-center(column);
+              gap: 2rem;
+              width: 100%;
+              min-width: 40rem;
+              padding-bottom: 2rem;
+              .title {
+                @include flex-left(row);
+                @include underline;
+                @include underline-menu-tablet;
+                @include menu-slide;
+              }
+              &__cartes {
+                display: flex;
+                background-color: $white-font;
+                width: 100%;
+                height: 7rem;
+                border-radius: 1rem;
+                box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                overflow: hidden;
+                @include menu-slide;
+                &__dishes {
+                  margin: auto 0;
+                  padding: 1rem;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  &__name {
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                  }
+                  &__info {
+                    font-size: 0.9rem;
+                    font-size: 1rem;
+                  }
+                }
+                &__price {
+                  margin: auto 1rem auto auto;
+                  font-weight: 700;
+                  display: flex;
+                  align-items: flex-end;
+                  font-size: 1.2rem;
+                }
+                @keyframes turn {
+                  100% {
+                    transform: rotate(360deg);
+                  }
+                }
+                @keyframes slide {
+                  100% {
+                    margin-right: 0;
+                  }
+                }
+                &:hover .slide {
+                  animation: slide 600ms 1 forwards;
+                  .fa-circle-check {
+                    animation: turn 500ms 1;
+                    animation-delay: 200ms;
+                  }
+                }
+              }
+            }
+            @include for-desktop {
+              @include flex-center(column);
+              gap: 2rem;
+              width: 100%;
+              min-width: 21rem;
+              padding-bottom: 2rem;
+              .title {
+                @include flex-left(row);
+                @include underline;
+                @include underline-menu-desktop;
+                @include menu-slide;
+              }
+              &__cartes {
+                display: flex;
+                background-color: $white-font;
+                width: 100%;
+                height: 7rem;
+                border-radius: 1rem;
+                box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                overflow: hidden;
+                @include menu-slide;
+                &__dishes {
+                  margin: auto 0;
+                  padding: 1rem;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  &__name {
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                  }
+                  &__info {
+                    font-size: 0.9rem;
+                    font-size: 1rem;
+                  }
+                }
+                &__price {
+                  margin: auto 1rem auto auto;
+                  font-weight: 700;
+                  display: flex;
+                  align-items: flex-end;
+                  font-size: 1.2rem;
+                }
+                @keyframes turn {
+                  100% {
+                    transform: rotate(360deg);
+                  }
+                }
+                @keyframes slide {
+                  100% {
+                    margin-right: 0;
+                  }
+                }
+                &:hover .slide {
+                  animation: slide 600ms 1 forwards;
+                  .fa-circle-check {
+                    animation: turn 500ms 1;
+                    animation-delay: 200ms;
+                  }
+                }
+              }
+            }
+          }
+          &__plats {
+            @include flex-center(column);
+            @include menu;
+            .title {
+              @include flex-left(row);
+              @include underline;
+              @include underline-menu;
+              @include menu-slide;
+              animation-delay: 150ms;
+            }
+            &__cartes {
+              display: flex;
+              width: 100%;
+              min-width: 10rem;
+              background-color: $white-font;
+              border-radius: 1rem;
+              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              overflow: hidden;
+              @include menu-slide;
+              animation-delay: 150ms;
+              &__dishes {
+                margin: auto 0;
+                padding: 1rem;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                &__name {
+                  font-weight: 700;
+                  font-size: 1rem;
+                }
+                &__info {
+                  font-size: 0.8rem;
+                }
+              }
+              &__price {
+                margin: auto 1rem auto auto;
+                font-weight: 700;
+                font-size: 1rem;
+                display: flex;
+                align-items: flex-end;
+              }
+              @keyframes turn {
+                100% {
+                  transform: rotate(360deg);
+                }
+              }
+              @keyframes slide {
+                100% {
+                  margin-right: 0;
+                }
+              }
+              &:hover .slide {
+                animation: slide 600ms 1 forwards;
+                .fa-circle-check {
+                  animation: turn 500ms 1;
+                  animation-delay: 200ms;
+                }
+              }
+            }
+            @include for-tablet {
+              @include flex-center(column);
+              gap: 2rem;
+              width: 100%;
+              min-width: 40rem;
+              padding-bottom: 2rem;
+              .title {
+                @include flex-left(row);
+                @include underline;
+                @include underline-menu-tablet;
+                @include menu-slide;
+                animation-delay: 150ms;
+              }
+              &__cartes {
+                display: flex;
+                background-color: $white-font;
+                width: 100%;
+                height: 7rem;
+                border-radius: 1rem;
+                box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                overflow: hidden;
+                @include menu-slide;
+                animation-delay: 150ms;
+                &__dishes {
+                  margin: auto 0;
+                  padding: 1rem;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  &__name {
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                  }
+                  &__info {
+                    font-size: 0.9rem;
+                    font-size: 1rem;
+                  }
+                }
+                &__price {
+                  margin: auto 1rem auto auto;
+                  font-weight: 700;
+                  display: flex;
+                  align-items: flex-end;
+                  font-size: 1.2rem;
+                }
+                @keyframes turn {
+                  100% {
+                    transform: rotate(360deg);
+                  }
+                }
+                @keyframes slide {
+                  100% {
+                    margin-right: 0;
+                  }
+                }
+                &:hover .slide {
+                  animation: slide 600ms 1 forwards;
+                  .fa-circle-check {
+                    animation: turn 500ms 1;
+                    animation-delay: 200ms;
+                  }
+                }
+              }
+            }
+            @include for-desktop {
+              @include flex-center(column);
+              gap: 2rem;
+              width: 100%;
+              min-width: 21rem;
+              padding-bottom: 2rem;
+              .title {
+                @include flex-left(row);
+                @include underline;
+                @include underline-menu-desktop;
+                @include menu-slide;
+                animation-delay: 150ms;
+              }
+              &__cartes {
+                display: flex;
+                background-color: $white-font;
+                width: 100%;
+                height: 7rem;
+                border-radius: 1rem;
+                box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                overflow: hidden;
+                @include menu-slide;
+                animation-delay: 150ms;
+                &__dishes {
+                  margin: auto 0;
+                  padding: 1rem;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  &__name {
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                  }
+                  &__info {
+                    font-size: 0.9rem;
+                    font-size: 1rem;
+                  }
+                }
+                &__price {
+                  margin: auto 1rem auto auto;
+                  font-weight: 700;
+                  display: flex;
+                  align-items: flex-end;
+                  font-size: 1.2rem;
+                }
+                @keyframes turn {
+                  100% {
+                    transform: rotate(360deg);
+                  }
+                }
+                @keyframes slide {
+                  100% {
+                    margin-right: 0;
+                  }
+                }
+                &:hover .slide {
+                  animation: slide 600ms 1 forwards;
+                  .fa-circle-check {
+                    animation: turn 500ms 1;
+                    animation-delay: 200ms;
+                  }
+                }
+              }
+            }
+          }
+          &__desserts {
+            @include flex-center(column);
+            @include menu;
+            .title {
+              @include flex-left(row);
+              @include underline;
+              @include underline-menu;
+              @include menu-slide;
+              animation-delay: 300ms;
+            }
+            &__cartes {
+              display: flex;
+              width: 100%;
+              min-width: 10rem;
+              background-color: $white-font;
+              border-radius: 1rem;
+              box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+              cursor: pointer;
+              overflow: hidden;
+              @include menu-slide;
+              animation-delay: 300ms;
+              &__dishes {
+                margin: auto 0;
+                padding: 1rem;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                &__name {
+                  font-weight: 700;
+                  font-size: 1rem;
+                }
+                &__info {
+                  font-size: 0.8rem;
+                }
+              }
+              &__price {
+                margin: auto 1rem auto auto;
+                font-weight: 700;
+                font-size: 1rem;
+                display: flex;
+                align-items: flex-end;
+              }
+              @keyframes turn {
+                100% {
+                  transform: rotate(360deg);
+                }
+              }
+              @keyframes slide {
+                100% {
+                  margin-right: 0;
+                }
+              }
+              &:hover .slide {
+                animation: slide 600ms 1 forwards;
+                .fa-circle-check {
+                  animation: turn 500ms 1;
+                  animation-delay: 200ms;
+                }
+              }
+            }
+            @include for-tablet {
+              @include flex-center(column);
+              gap: 2rem;
+              width: 100%;
+              min-width: 40rem;
+              padding-bottom: 2rem;
+              .title {
+                @include flex-left(row);
+                @include underline;
+                @include underline-menu-tablet;
+                @include menu-slide;
+                animation-delay: 300ms;
+              }
+              &__cartes {
+                display: flex;
+                background-color: $white-font;
+                width: 100%;
+                height: 7rem;
+                border-radius: 1rem;
+                box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                overflow: hidden;
+                @include menu-slide;
+                animation-delay: 300ms;
+                &__dishes {
+                  margin: auto 0;
+                  padding: 1rem;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  &__name {
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                  }
+                  &__info {
+                    font-size: 0.9rem;
+                    font-size: 1rem;
+                  }
+                }
+                &__price {
+                  margin: auto 1rem auto auto;
+                  font-weight: 700;
+                  display: flex;
+                  align-items: flex-end;
+                  font-size: 1.2rem;
+                }
+                @keyframes turn {
+                  100% {
+                    transform: rotate(360deg);
+                  }
+                }
+                @keyframes slide {
+                  100% {
+                    margin-right: 0;
+                  }
+                }
+                &:hover .slide {
+                  animation: slide 600ms 1 forwards;
+                  .fa-circle-check {
+                    animation: turn 500ms 1;
+                    animation-delay: 200ms;
+                  }
+                }
+              }
+            }
+            @include for-desktop {
+              @include flex-center(column);
+              gap: 2rem;
+              width: 100%;
+              min-width: 21rem;
+              padding-bottom: 2rem;
+              .title {
+                @include flex-left(row);
+                @include underline;
+                @include underline-menu-desktop;
+                @include menu-slide;
+                animation-delay: 300ms;
+              }
+              &__cartes {
+                display: flex;
+                background-color: $white-font;
+                width: 100%;
+                height: 7rem;
+                border-radius: 1rem;
+                box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+                cursor: pointer;
+                overflow: hidden;
+                @include menu-slide;
+                animation-delay: 300ms;
+                &__dishes {
+                  margin: auto 0;
+                  padding: 1rem;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  &__name {
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                  }
+                  &__info {
+                    font-size: 0.9rem;
+                    font-size: 1rem;
+                  }
+                }
+                &__price {
+                  margin: auto 1rem auto auto;
+                  font-weight: 700;
+                  display: flex;
+                  align-items: flex-end;
+                  font-size: 1.2rem;
+                }
+                @keyframes turn {
+                  100% {
+                    transform: rotate(360deg);
+                  }
+                }
+                @keyframes slide {
+                  100% {
+                    margin-right: 0;
+                  }
+                }
+                &:hover .slide {
+                  animation: slide 600ms 1 forwards;
+                  .fa-circle-check {
+                    animation: turn 500ms 1;
+                    animation-delay: 200ms;
+                  }
+                }
+              }
+            }
+          }
+          &__check {
+            background-color: $third-color;
+            width: 5rem;
+            height: auto;
+            border-top-right-radius: 1rem;
+            border-bottom-right-radius: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: -5rem;
+            .fa-circle-check {
+              color: $white-font;
+              font-size: 1.5rem;
+            }
+          }
           @include for-desktop {
-            @include flex-center-menu(row);
-            gap: 7rem;
+            display: flex;
+            flex-direction: row;
+            gap: 2.5rem;
+            align-items: flex-start;
           }
         }
       }
@@ -387,11 +739,10 @@
   }
 }
 
-/* .short-text {
+.short-text {
   overflow: hidden;
-  white-space: nowrap;
   text-overflow: ellipsis;
-} */
+}
 
 .howto {
   padding: 3rem 1rem;
@@ -645,14 +996,13 @@
         }
       }
       &__like {
-        .fa-heart {
-          position: absolute;
-          top: 25%;
-          right: 5%;
-          @include heart-fill;
-          @include for-desktop {
-            font-size: 1.9rem;
-          }
+        .heart-1 {
+        }
+        .heart-2 {
+        }
+        /* @include heart-fill; */
+        @include for-desktop {
+          font-size: 1.9rem;
         }
       }
       @include for-tablet {
