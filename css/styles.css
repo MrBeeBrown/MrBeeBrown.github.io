@@ -6466,7 +6466,56 @@ footer .contact {
   }
 }
 .restaurant__1__like {
-  /* @include heart-fill; */
+  position: relative;
+  width: 4rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+.restaurant__1__like .fa-heart {
+  cursor: pointer;
+}
+.restaurant__1__like .fa-heart::before {
+  content: "\f004";
+}
+.restaurant__1__like .fa-regular {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+.restaurant__1__like .fa-solid {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+}
+.restaurant__1__like .heart-1:active {
+  opacity: 0;
+}
+.restaurant__1__like .heart-2 {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(#ff79da, #9356dc);
+  opacity: 0;
+}
+.restaurant__1__like .heart-2:active {
+  opacity: 1;
 }
 @media (min-width: 1300px) {
   .restaurant__1__like {
@@ -6588,7 +6637,56 @@ footer .contact {
   }
 }
 .restaurant__2__like {
-  /* @include heart-fill; */
+  position: relative;
+  width: 4rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+.restaurant__2__like .fa-heart {
+  cursor: pointer;
+}
+.restaurant__2__like .fa-heart::before {
+  content: "\f004";
+}
+.restaurant__2__like .fa-regular {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+.restaurant__2__like .fa-solid {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+}
+.restaurant__2__like .heart-1:active {
+  opacity: 0;
+}
+.restaurant__2__like .heart-2 {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(#ff79da, #9356dc);
+  opacity: 0;
+}
+.restaurant__2__like .heart-2:active {
+  opacity: 1;
 }
 @media (min-width: 1300px) {
   .restaurant__2__like {
@@ -6710,7 +6808,56 @@ footer .contact {
   }
 }
 .restaurant__3__like {
-  /* @include heart-fill; */
+  position: relative;
+  width: 4rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+.restaurant__3__like .fa-heart {
+  cursor: pointer;
+}
+.restaurant__3__like .fa-heart::before {
+  content: "\f004";
+}
+.restaurant__3__like .fa-regular {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+.restaurant__3__like .fa-solid {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+}
+.restaurant__3__like .heart-1:active {
+  opacity: 0;
+}
+.restaurant__3__like .heart-2 {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(#ff79da, #9356dc);
+  opacity: 0;
+}
+.restaurant__3__like .heart-2:active {
+  opacity: 1;
 }
 @media (min-width: 1300px) {
   .restaurant__3__like {
@@ -6832,7 +6979,56 @@ footer .contact {
   }
 }
 .restaurant__4__like {
-  /* @include heart-fill; */
+  position: relative;
+  width: 4rem;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+}
+.restaurant__4__like .fa-heart {
+  cursor: pointer;
+}
+.restaurant__4__like .fa-heart::before {
+  content: "\f004";
+}
+.restaurant__4__like .fa-regular {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+}
+.restaurant__4__like .fa-solid {
+  position: absolute;
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+}
+.restaurant__4__like .heart-1:active {
+  opacity: 0;
+}
+.restaurant__4__like .heart-2 {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff79da), to(#9356dc));
+  background-image: linear-gradient(#ff79da, #9356dc);
+  opacity: 0;
+}
+.restaurant__4__like .heart-2:active {
+  opacity: 1;
 }
 @media (min-width: 1300px) {
   .restaurant__4__like {
