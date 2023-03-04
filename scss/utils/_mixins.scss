@@ -21,6 +21,12 @@
   justify-content: left;
   align-items: center;
 }
+@mixin flex-right($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: right;
+  align-items: center;
+}
 
 @mixin flex-between($direction) {
   display: flex;
@@ -75,19 +81,21 @@
   position: relative;
   width: 95%;
   min-width: 12rem;
-  max-width: 30rem;
+  max-width: 20rem;
   height: 4.5rem;
   background-color: colors.$gray-background;
   border-radius: 1.5rem;
   @include for-tablet() {
     width: 100%;
     min-width: 15rem;
+    max-width: 30rem;
     width: 27rem;
     height: 6rem;
   }
   @include for-desktop() {
     width: 100%;
     min-width: 15rem;
+    max-width: 27rem;
     width: 27rem;
     height: 10rem;
     padding-top: 2rem;

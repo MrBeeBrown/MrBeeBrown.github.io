@@ -5763,7 +5763,7 @@ footer .contact {
   position: relative;
   width: 95%;
   min-width: 12rem;
-  max-width: 30rem;
+  max-width: 20rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
   border-radius: 1.5rem;
@@ -5786,6 +5786,7 @@ footer .contact {
   .howto__restaurant {
     width: 100%;
     min-width: 15rem;
+    max-width: 30rem;
     width: 27rem;
     height: 6rem;
   }
@@ -5794,6 +5795,7 @@ footer .contact {
   .howto__restaurant {
     width: 100%;
     min-width: 15rem;
+    max-width: 27rem;
     width: 27rem;
     height: 10rem;
     padding-top: 2rem;
@@ -5860,12 +5862,13 @@ footer .contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 0.3rem;
   width: 20%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
@@ -5879,12 +5882,27 @@ footer .contact {
   }
 }
 .howto__restaurant__texte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Roboto";
   font-weight: 700;
+  font-size: 0.9rem;
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__restaurant__texte {
+    font-size: 1rem;
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5903,6 +5921,7 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .howto__restaurant__texte {
+    font-size: 1.2rem;
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5938,7 +5957,7 @@ footer .contact {
   position: relative;
   width: 95%;
   min-width: 12rem;
-  max-width: 30rem;
+  max-width: 20rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
   border-radius: 1.5rem;
@@ -5961,6 +5980,7 @@ footer .contact {
   .howto__menu {
     width: 100%;
     min-width: 15rem;
+    max-width: 30rem;
     width: 27rem;
     height: 6rem;
   }
@@ -5969,6 +5989,7 @@ footer .contact {
   .howto__menu {
     width: 100%;
     min-width: 15rem;
+    max-width: 27rem;
     width: 27rem;
     height: 10rem;
     padding-top: 2rem;
@@ -6035,12 +6056,13 @@ footer .contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 0.3rem;
   width: 20%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
@@ -6054,12 +6076,27 @@ footer .contact {
   }
 }
 .howto__menu__texte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Roboto";
   font-weight: 700;
+  font-size: 0.9rem;
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__menu__texte {
+    font-size: 1rem;
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6078,6 +6115,7 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .howto__menu__texte {
+    font-size: 1.2rem;
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6113,7 +6151,7 @@ footer .contact {
   position: relative;
   width: 95%;
   min-width: 12rem;
-  max-width: 30rem;
+  max-width: 20rem;
   height: 4.5rem;
   background-color: rgb(247, 245, 245);
   border-radius: 1.5rem;
@@ -6136,6 +6174,7 @@ footer .contact {
   .howto__eat {
     width: 100%;
     min-width: 15rem;
+    max-width: 30rem;
     width: 27rem;
     height: 6rem;
   }
@@ -6144,6 +6183,7 @@ footer .contact {
   .howto__eat {
     width: 100%;
     min-width: 15rem;
+    max-width: 27rem;
     width: 27rem;
     height: 10rem;
     padding-top: 2rem;
@@ -6210,12 +6250,13 @@ footer .contact {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 0.3rem;
   width: 20%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
@@ -6229,12 +6270,27 @@ footer .contact {
   }
 }
 .howto__eat__texte {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "Roboto";
   font-weight: 700;
+  font-size: 0.9rem;
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .howto__eat__texte {
+    font-size: 1rem;
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6253,6 +6309,7 @@ footer .contact {
 }
 @media (min-width: 1300px) {
   .howto__eat__texte {
+    font-size: 1.2rem;
     width: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6514,10 +6571,11 @@ footer .contact {
   position: absolute;
   right: 25%;
   opacity: 0;
+  background-image: linear-gradient(175deg, #ff79da, #9356dc);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
+  /* background-image: $gradient; */
 }
 .restaurant__1__like .heart-2::before {
   content: "\f004";
@@ -6698,10 +6756,11 @@ footer .contact {
   position: absolute;
   right: 25%;
   opacity: 0;
+  background-image: linear-gradient(175deg, #ff79da, #9356dc);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
+  /* background-image: $gradient; */
 }
 .restaurant__2__like .heart-2::before {
   content: "\f004";
@@ -6882,10 +6941,11 @@ footer .contact {
   position: absolute;
   right: 25%;
   opacity: 0;
+  background-image: linear-gradient(175deg, #ff79da, #9356dc);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
+  /* background-image: $gradient; */
 }
 .restaurant__3__like .heart-2::before {
   content: "\f004";
@@ -7066,10 +7126,11 @@ footer .contact {
   position: absolute;
   right: 25%;
   opacity: 0;
+  background-image: linear-gradient(175deg, #ff79da, #9356dc);
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  background-image: linear-gradient(175deg, #ff79da, #9356dc);
+  /* background-image: $gradient; */
 }
 .restaurant__4__like .heart-2::before {
   content: "\f004";

@@ -780,7 +780,8 @@
     }
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
-      @include flex-center(row);
+      @include flex-right(row);
+      padding-right: 0.3rem;
       width: 20%;
       @include for-tablet {
         width: 20%;
@@ -790,14 +791,18 @@
       }
     }
     &__texte {
+      @include flex-center(row);
       font-family: $text-font;
       font-weight: 700;
+      font-size: 0.9rem;
       width: 80%;
       @include for-tablet {
+        font-size: 1rem;
         width: 80%;
         @include flex-center(row);
       }
       @include for-desktop {
+        font-size: 1.2rem;
         width: 80%;
         @include flex-center(row);
         font-size: 1.2rem;
@@ -827,7 +832,8 @@
     }
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
-      @include flex-center(row);
+      @include flex-right(row);
+      padding-right: 0.3rem;
       width: 20%;
       @include for-tablet {
         width: 20%;
@@ -837,14 +843,18 @@
       }
     }
     &__texte {
+      @include flex-center(row);
       font-family: $text-font;
       font-weight: 700;
+      font-size: 0.9rem;
       width: 80%;
       @include for-tablet {
+        font-size: 1rem;
         width: 80%;
         @include flex-center(row);
       }
       @include for-desktop {
+        font-size: 1.2rem;
         width: 80%;
         @include flex-center(row);
         font-size: 1.2rem;
@@ -874,7 +884,8 @@
     }
     &__icone {
       color: lighten($color: $gray-footer, $amount: 20);
-      @include flex-center(row);
+      @include flex-right(row);
+      padding-right: 0.3rem;
       width: 20%;
       @include for-tablet {
         width: 20%;
@@ -884,14 +895,18 @@
       }
     }
     &__texte {
+      @include flex-center(row);
       font-family: $text-font;
       font-weight: 700;
+      font-size: 0.9rem;
       width: 80%;
       @include for-tablet {
+        font-size: 1rem;
         width: 80%;
         @include flex-center(row);
       }
       @include for-desktop {
+        font-size: 1.2rem;
         width: 80%;
         @include flex-center(row);
         font-size: 1.2rem;
@@ -1039,10 +1054,11 @@
           position: absolute;
           right: 25%;
           opacity: 0;
+          background-image: $gradient;
           color: transparent;
           -webkit-background-clip: text;
           background-clip: text;
-          background-image: $gradient;
+          /* background-image: $gradient; */
           &::before {
             content: "\f004";
           }
