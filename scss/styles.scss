@@ -1028,24 +1028,33 @@
           &:active {
             opacity: 0;
           }
+          @include for-tablet {
+            top: 25%;
+          }
+          @include for-desktop {
+            top: 25%;
+          }
         }
         .heart-2 {
           position: absolute;
           right: 25%;
+          opacity: 0;
           color: transparent;
           -webkit-background-clip: text;
           background-clip: text;
           background-image: $gradient;
-          opacity: 0;
           &::before {
             content: "\f004";
           }
           &:active {
             opacity: 1;
           }
-        }
-        @include for-desktop {
-          font-size: 1.9rem;
+          @include for-tablet {
+            top: 25%;
+          }
+          @include for-desktop {
+            top: 25%;
+          }
         }
       }
       @include for-tablet {
