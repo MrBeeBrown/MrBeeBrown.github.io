@@ -999,18 +999,10 @@
         position: relative;
         width: 4rem;
         height: 100%;
-        display: flex;
-        align-items: center;
         font-size: 2rem;
-        .fa-heart {
-          cursor: pointer;
-          &::before {
-            content: "\f004";
-          }
-        }
+        cursor: pointer;
         .fa-regular {
-          position: absolute;
-          display: inline-block;
+          display: block;
           text-rendering: auto;
           -webkit-font-smoothing: antialiased;
           font-family: "Font Awesome 6 Free";
@@ -1019,8 +1011,7 @@
           font-weight: 400;
         }
         .fa-solid {
-          position: absolute;
-          display: inline-block;
+          display: block;
           text-rendering: auto;
           -webkit-font-smoothing: antialiased;
           font-family: "Font Awesome 6 Free";
@@ -1029,15 +1020,26 @@
           font-weight: 900;
         }
         .heart-1 {
+          position: absolute;
+          right: 25%;
+          &::before {
+            content: "\f004";
+          }
           &:active {
             opacity: 0;
           }
         }
         .heart-2 {
+          position: absolute;
+          right: 25%;
           color: transparent;
+          -webkit-background-clip: text;
           background-clip: text;
-          background-image: linear-gradient(#ff79da, #9356dc);
+          background-image: $gradient;
           opacity: 0;
+          &::before {
+            content: "\f004";
+          }
           &:active {
             opacity: 1;
           }
