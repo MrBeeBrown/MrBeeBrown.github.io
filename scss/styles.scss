@@ -1016,60 +1016,31 @@
         height: 100%;
         font-size: 2rem;
         cursor: pointer;
-        .fa-regular {
-          display: block;
-          text-rendering: auto;
-          -webkit-font-smoothing: antialiased;
-          font-family: "Font Awesome 6 Free";
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 400;
-        }
-        .fa-solid {
-          display: block;
-          text-rendering: auto;
-          -webkit-font-smoothing: antialiased;
-          font-family: "Font Awesome 6 Free";
-          font-style: normal;
-          font-variant: normal;
-          font-weight: 900;
-        }
-        .heart-1 {
+        .fa-heart {
           position: absolute;
           right: 25%;
-          &::before {
-            content: "\f004";
+          @include for-tablet {
+            top: 25%;
           }
+          @include for-desktop {
+            top: 25%;
+          }
+        }
+        .heart-1 {
+          opacity: 1;
           &:active {
             opacity: 0;
           }
-          @include for-tablet {
-            top: 25%;
-          }
-          @include for-desktop {
-            top: 25%;
-          }
         }
         .heart-2 {
-          position: absolute;
-          right: 25%;
           opacity: 0;
+          /* color: transparent;
           background-image: $gradient;
-          color: transparent;
           -webkit-background-clip: text;
-          background-clip: text;
-          /* background-image: $gradient; */
-          &::before {
-            content: "\f004";
-          }
+          background-clip: text; */
           &:active {
             opacity: 1;
-          }
-          @include for-tablet {
-            top: 25%;
-          }
-          @include for-desktop {
-            top: 25%;
+            scale: 1.1;
           }
         }
       }
