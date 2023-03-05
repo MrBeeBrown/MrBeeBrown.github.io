@@ -69,14 +69,16 @@
           }
         }
         &__like {
-          .fa-heart {
-            position: absolute;
-            top: 25%;
-            right: 2.5%;
-            @include heart-fill;
-            @include for-desktop {
-              font-size: 1.9rem;
-            }
+          position: relative;
+          height: 100%;
+          width: 3rem;
+          font-size: 1.5rem;
+          @include heart-fill-resto;
+          @include for-tablet {
+            font-size: 1.9rem;
+          }
+          @include for-desktop {
+            font-size: 1.9rem;
           }
         }
       }
@@ -1015,34 +1017,7 @@
         width: 4rem;
         height: 100%;
         font-size: 2rem;
-        cursor: pointer;
-        .fa-heart {
-          position: absolute;
-          right: 25%;
-          @include for-tablet {
-            top: 25%;
-          }
-          @include for-desktop {
-            top: 25%;
-          }
-        }
-        .heart-1 {
-          opacity: 1;
-          &:active {
-            opacity: 0;
-          }
-        }
-        .heart-2 {
-          opacity: 0;
-          /* color: transparent;
-          background-image: $gradient;
-          -webkit-background-clip: text;
-          background-clip: text; */
-          &:active {
-            opacity: 1;
-            scale: 1.1;
-          }
-        }
+        @include heart-fill;
       }
       @include for-tablet {
         height: 20rem;

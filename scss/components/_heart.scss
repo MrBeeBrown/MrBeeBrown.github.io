@@ -1,29 +1,64 @@
 @use "../base/colors" as colors;
+@use "../utils/mixins" as mixins;
 
 @mixin heart-fill {
-  cursor: pointer;
   transition: all 400ms ease-in-out;
-  .heart-1 {
-    &::before {
-      opacity: 1;
+  cursor: pointer;
+  .fa-heart {
+    position: absolute;
+    right: 25%;
+    @include mixins.for-tablet {
+      top: 25%;
+    }
+    @include mixins.for-desktop {
+      top: 25%;
     }
   }
-  .heart-2 {
-    &::before {
+  .heart-1 {
+    position: absolute;
+    opacity: 1;
+    &:active {
       opacity: 0;
     }
   }
-  &:active {
-    .heart-1 {
-      &::before {
-        opacity: 0;
-      }
+  .heart-2 {
+    position: absolute;
+    opacity: 0;
+    background-image: colors.$gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    &:active {
+      opacity: 1;
+      scale: 1.2;
     }
-    .heart-2 {
-      &::before {
-        opacity: 1;
-        color: colors.$primary-color;
-      }
+  }
+}
+@mixin heart-fill-resto {
+  transition: all 400ms ease-in-out;
+  cursor: pointer;
+  .fa-heart {
+    position: absolute;
+    right: 25%;
+    top: 35%;
+  }
+  .heart-1 {
+    position: absolute;
+    opacity: 1;
+    &:active {
+      opacity: 0;
+    }
+  }
+  .heart-2 {
+    position: absolute;
+    opacity: 0;
+    background-image: colors.$gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    &:active {
+      opacity: 1;
+      scale: 1.2;
     }
   }
 }
