@@ -5669,6 +5669,16 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-weight: 700;
 }
+@media (min-width: 768px) and (max-width: 1299px) {
+  .resto__location {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1300px) {
+  .resto__location {
+    font-size: 1.2rem;
+  }
+}
 .resto__headline {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5997,7 +6007,7 @@ footer .contact {
           align-items: center;
   font-family: "roboto", "sans-serif";
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   width: 80%;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
@@ -6608,6 +6618,11 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 1.075rem;
 }
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__1__name h3 {
+    font-size: 1.1rem;
+  }
+}
 @media (min-width: 1300px) {
   .restaurant__1__name h3 {
     font-size: 1.3rem;
@@ -6617,9 +6632,14 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 0.9rem;
 }
-@media (min-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__1__place p {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1300px) {
+  .restaurant__1__place p {
+    font-size: 1.2rem;
   }
 }
 .restaurant__1__like {
@@ -6764,6 +6784,11 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 1.075rem;
 }
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__2__name h3 {
+    font-size: 1.1rem;
+  }
+}
 @media (min-width: 1300px) {
   .restaurant__2__name h3 {
     font-size: 1.3rem;
@@ -6773,9 +6798,14 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 0.9rem;
 }
-@media (min-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__2__place p {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1300px) {
+  .restaurant__2__place p {
+    font-size: 1.2rem;
   }
 }
 .restaurant__2__like {
@@ -6920,6 +6950,11 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 1.075rem;
 }
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__3__name h3 {
+    font-size: 1.1rem;
+  }
+}
 @media (min-width: 1300px) {
   .restaurant__3__name h3 {
     font-size: 1.3rem;
@@ -6929,9 +6964,14 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 0.9rem;
 }
-@media (min-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__3__place p {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1300px) {
+  .restaurant__3__place p {
+    font-size: 1.2rem;
   }
 }
 .restaurant__3__like {
@@ -7076,6 +7116,11 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 1.075rem;
 }
+@media (min-width: 768px) and (max-width: 1299px) {
+  .restaurant__4__name h3 {
+    font-size: 1.1rem;
+  }
+}
 @media (min-width: 1300px) {
   .restaurant__4__name h3 {
     font-size: 1.3rem;
@@ -7085,9 +7130,14 @@ footer .contact {
   font-family: "roboto", "sans-serif";
   font-size: 0.9rem;
 }
-@media (min-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__4__place p {
     font-size: 1rem;
+  }
+}
+@media (min-width: 1300px) {
+  .restaurant__4__place p {
+    font-size: 1.2rem;
   }
 }
 .restaurant__4__like {

@@ -700,6 +700,12 @@
       font-family: "roboto", "sans-serif";
       font-weight: 700;
     }
+    @include for-tablet {
+      font-size: 1rem;
+    }
+    @include for-desktop {
+      font-size: 1.2rem;
+    }
   }
   &__headline {
     @include flex-center(row);
@@ -799,7 +805,7 @@
       @include flex-center(row);
       font-family: "roboto", "sans-serif";
       font-weight: 700;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       width: 80%;
       @include for-tablet {
         font-size: 1rem;
@@ -1001,6 +1007,9 @@
         h3 {
           font-family: "roboto", "sans-serif";
           font-size: 1.075rem;
+          @include for-tablet {
+            font-size: 1.1rem;
+          }
           @include for-desktop {
             font-size: 1.3rem;
           }
@@ -1010,8 +1019,11 @@
         p {
           font-family: "roboto", "sans-serif";
           font-size: 0.9rem;
-          @include for-desktop {
+          @include for-tablet {
             font-size: 1rem;
+          }
+          @include for-desktop {
+            font-size: 1.2rem;
           }
         }
       }
