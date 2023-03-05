@@ -536,7 +536,8 @@ footer .contact {
 }
 .resto__1__title__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__1__title__like {
@@ -1850,7 +1851,8 @@ footer .contact {
 }
 .resto__2__title__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__2__title__like {
@@ -3153,7 +3155,8 @@ footer .contact {
 }
 .resto__3__title__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__3__title__like {
@@ -4456,7 +4459,8 @@ footer .contact {
 }
 .resto__4__title__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .resto__4__title__like {
@@ -6682,7 +6686,8 @@ footer .contact {
 }
 .restaurant__1__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__1 {
@@ -6848,7 +6853,8 @@ footer .contact {
 }
 .restaurant__2__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__2 {
@@ -7014,7 +7020,8 @@ footer .contact {
 }
 .restaurant__3__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__3 {
@@ -7180,7 +7187,8 @@ footer .contact {
 }
 .restaurant__4__like .heart-2:active {
   opacity: 1;
-  scale: 1.2;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   .restaurant__4 {
