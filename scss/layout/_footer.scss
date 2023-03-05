@@ -1,5 +1,4 @@
 @use "../base/colors" as colors;
-@use "../base/fonts" as fonts;
 @use "../utils/mixins" as mixins;
 
 footer {
@@ -8,7 +7,7 @@ footer {
   height: 15rem;
   .logo {
     padding: 1rem 0.5rem;
-    font-family: fonts.$title-font;
+    font-family: "shrikhand", "cursive";
     color: colors.$white-font;
     font-size: 1.2rem;
   }

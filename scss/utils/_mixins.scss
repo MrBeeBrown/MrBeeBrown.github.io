@@ -1,4 +1,3 @@
-@use "../base/fonts" as fonts;
 @use "../base/colors" as colors;
 
 @mixin flex-center($direction) {
@@ -38,11 +37,11 @@
 @mixin footer-text {
   padding: 0.4rem;
   color: colors.$white-font;
-  font-family: fonts.$text-font;
+  font-family: "roboto", "sans-serif";
 }
 
 @mixin number {
-  font-family: fonts.$text-font;
+  font-family: "roboto", "sans-serif";
   color: colors.$white-font;
   font-weight: 700;
   font-size: 0.8rem;

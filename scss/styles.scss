@@ -57,7 +57,7 @@
           @include flex-center(row);
           height: 5rem;
           p {
-            font-family: $title-font;
+            font-family: "shrikhand", "cursive";
             font-size: 1.3rem;
             font-weight: 700;
             @include for-tablet {
@@ -87,7 +87,7 @@
         @include flex-center(column);
         padding: 3rem 1rem;
         background-color: $gray-background;
-        font-family: $text-font;
+        font-family: "roboto", "sans-serif";
         &__content {
           width: 100%;
           padding-bottom: 2rem;
@@ -697,7 +697,7 @@
     font-size: 0.9rem;
     color: lighten($color: $black-font, $amount: 30);
     p {
-      font-family: $text-font;
+      font-family: "roboto", "sans-serif";
       font-weight: 700;
     }
   }
@@ -708,13 +708,13 @@
     padding: 1rem;
     text-align: center;
     h1 {
-      font-family: $text-font;
+      font-family: "roboto", "sans-serif";
       font-weight: 700;
       font-size: 1.5rem;
     }
     &__sub {
       @include flex-center(row);
-      font-family: $text-font;
+      font-family: "roboto", "sans-serif";
       font-size: 1rem;
       text-align: center;
       color: lighten($color: $black-font, $amount: 30);
@@ -752,7 +752,7 @@
 .howto {
   padding: 3rem 1rem;
   h2 {
-    font-family: $text-font;
+    font-family: "roboto", "sans-serif";
     @include for-tablet {
       @include flex-center(column);
       font-size: 2rem;
@@ -797,7 +797,7 @@
     }
     &__texte {
       @include flex-center(row);
-      font-family: $text-font;
+      font-family: "roboto", "sans-serif";
       font-weight: 700;
       font-size: 0.9rem;
       width: 80%;
@@ -849,7 +849,7 @@
     }
     &__texte {
       @include flex-center(row);
-      font-family: $text-font;
+      font-family: "roboto", "sans-serif";
       font-weight: 700;
       font-size: 0.9rem;
       width: 80%;
@@ -901,7 +901,7 @@
     }
     &__texte {
       @include flex-center(row);
-      font-family: $text-font;
+      font-family: "roboto", "sans-serif";
       font-weight: 700;
       font-size: 0.9rem;
       width: 80%;
@@ -935,7 +935,7 @@
 
 .restaurant {
   h2 {
-    font-family: $text-font;
+    font-family: "roboto", "sans-serif";
     @include for-tablet {
       @include flex-center(column);
       font-size: 2rem;
@@ -999,7 +999,7 @@
       }
       &__name {
         h3 {
-          font-family: $text-font;
+          font-family: "roboto", "sans-serif";
           font-size: 1.075rem;
           @include for-desktop {
             font-size: 1.3rem;
@@ -1008,7 +1008,7 @@
       }
       &__place {
         p {
-          font-family: $text-font;
+          font-family: "roboto", "sans-serif";
           font-size: 0.9rem;
           @include for-desktop {
             font-size: 1rem;
