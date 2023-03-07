@@ -117,11 +117,11 @@
   &::after {
     content: "";
     position: absolute;
-    width: 92%;
+    width: 2.5rem;
     height: 4px;
     bottom: -4px;
-    right: 0;
-    background-color: colors.$gray-background;
+    left: 0;
+    background-color: colors.$third-color;
   }
 }
 
@@ -129,11 +129,11 @@
   &::after {
     content: "";
     position: absolute;
-    width: 94%;
-    height: 6px;
+    width: 2.5rem;
+    height: 4px;
     bottom: -5px;
-    right: 0;
-    background-color: colors.$gray-background;
+    left: 0;
+    background-color: colors.$third-color;
   }
 }
 
@@ -141,11 +141,11 @@
   &::after {
     content: "";
     position: absolute;
-    width: 90%;
+    width: 2.5rem;
     height: 4px;
     bottom: -4px;
-    right: 0;
-    background-color: colors.$gray-background;
+    left: 0;
+    background-color: colors.$third-color;
   }
 }
 
@@ -166,7 +166,6 @@
 
 @mixin underline {
   width: 100%;
-  border-bottom: 4px solid colors.$third-color;
   text-transform: uppercase;
   position: relative;
 }
