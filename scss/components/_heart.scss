@@ -2,7 +2,6 @@
 @use "../utils/mixins" as mixins;
 
 @mixin heart-fill {
-  transition: all 400ms ease-in-out;
   cursor: pointer;
   .fa-heart {
     position: absolute;
@@ -29,13 +28,13 @@
     background-clip: text;
     color: transparent;
     &:active {
+      transition: all 300ms ease-in-out;
       opacity: 1;
       transform: scale(1.2);
     }
   }
 }
 @mixin heart-fill-resto {
-  transition: all 400ms ease-in-out;
   cursor: pointer;
   .fa-heart {
     position: absolute;
@@ -57,6 +56,7 @@
     background-clip: text;
     color: transparent;
     &:active {
+      transition: all 300ms ease-in-out;
       opacity: 1;
       transform: scale(1.2);
     }

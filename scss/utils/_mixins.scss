@@ -37,11 +37,11 @@
 @mixin footer-text {
   padding: 0.4rem;
   color: colors.$white-font;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 
 @mixin number {
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   color: colors.$white-font;
   font-weight: 700;
   font-size: 0.8rem;

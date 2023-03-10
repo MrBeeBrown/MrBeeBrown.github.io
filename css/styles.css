@@ -22,32 +22,12 @@ a:active {
   color: unset;
 }
 
-/* "shrikhand", "cursive"
-"roboto", "sans-serif" */
-@font-face {
-  font-family: "roboto";
-  src: url("/assets/fonts/roboto-bold-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-bold-webfont.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: "roboto";
-  src: url("/assets/fonts/roboto-regular-webfont.woff2") format("woff2"), url("/assets/fonts/roboto-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "shrikhand";
-  src: url("/assets/fonts/shrikhand-regular-webfont.woff2") format("woff2"), url("/assets/fonts/shrikhand-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 .btn__resto {
   border: none;
   border-radius: 2rem;
   padding: 1rem 1.5rem;
   font-size: 1rem;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   background-image: linear-gradient(175deg, #ff79da, #9356dc);
   color: #fff;
   -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
@@ -76,7 +56,7 @@ a:active {
   border-radius: 0.2rem;
   background-color: #99e2d0;
   color: #278870;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   font-weight: 700;
   -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
@@ -95,7 +75,7 @@ a:active {
   padding: 0.7rem;
   width: 12rem;
   font-size: 1rem;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   background-image: linear-gradient(175deg, #ff79da, #9356dc);
   color: #fff;
   -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.5);
@@ -236,7 +216,7 @@ a:active {
   background-color: #fff;
 }
 .header p {
-  font-family: "shrikhand", "cursive";
+  font-family: "Shrikhand", "cursive";
   font-size: 2rem;
 }
 @media (min-width: 768px) and (max-width: 1299px) {
@@ -245,7 +225,7 @@ a:active {
     height: 6rem;
   }
   .header p {
-    font-family: "shrikhand", "cursive";
+    font-family: "Shrikhand", "cursive";
     font-size: 3rem;
   }
 }
@@ -255,7 +235,7 @@ a:active {
     height: 8rem;
   }
   .header p {
-    font-family: "shrikhand", "cursive";
+    font-family: "Shrikhand", "cursive";
     font-size: 4rem;
   }
 }
@@ -293,7 +273,7 @@ a:active {
           transform: scale(0.7);
 }
 .header__1 p {
-  font-family: "shrikhand", "cursive";
+  font-family: "Shrikhand", "cursive";
   font-size: 2rem;
 }
 
@@ -304,7 +284,7 @@ footer {
 }
 footer .logo {
   padding: 1rem 0.5rem;
-  font-family: "shrikhand", "cursive";
+  font-family: "Shrikhand", "cursive";
   color: #fff;
   font-size: 1.2rem;
 }
@@ -324,7 +304,7 @@ footer .submit__restaurant {
           align-items: center;
   padding: 0.4rem;
   color: #fff;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 footer .submit__restaurant p {
   margin-left: 1rem;
@@ -345,7 +325,7 @@ footer .become__partner {
           align-items: center;
   padding: 0.4rem;
   color: #fff;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 footer .become__partner p {
   margin-left: 0.65rem;
@@ -353,12 +333,12 @@ footer .become__partner p {
 footer .legal__notice {
   padding: 0.4rem;
   color: #fff;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 footer .contact {
   padding: 0.4rem;
   color: #fff;
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 @media (min-width: 768px) and (max-width: 1299px) {
   footer {
@@ -491,7 +471,7 @@ footer .contact {
   height: 5rem;
 }
 .resto__1__title__name p {
-  font-family: "shrikhand", "cursive";
+  font-family: "Shrikhand", "cursive";
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -510,8 +490,6 @@ footer .contact {
   height: 100%;
   width: 3rem;
   font-size: 1.5rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .resto__1__title__like .fa-heart {
@@ -535,6 +513,8 @@ footer .contact {
   color: transparent;
 }
 .resto__1__title__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -1797,7 +1777,7 @@ footer .contact {
   height: 5rem;
 }
 .resto__2__title__name p {
-  font-family: "shrikhand", "cursive";
+  font-family: "Shrikhand", "cursive";
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -1816,8 +1796,6 @@ footer .contact {
   height: 100%;
   width: 3rem;
   font-size: 1.5rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .resto__2__title__like .fa-heart {
@@ -1841,6 +1819,8 @@ footer .contact {
   color: transparent;
 }
 .resto__2__title__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -3092,7 +3072,7 @@ footer .contact {
   height: 5rem;
 }
 .resto__3__title__name p {
-  font-family: "shrikhand", "cursive";
+  font-family: "Shrikhand", "cursive";
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -3111,8 +3091,6 @@ footer .contact {
   height: 100%;
   width: 3rem;
   font-size: 1.5rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .resto__3__title__like .fa-heart {
@@ -3136,6 +3114,8 @@ footer .contact {
   color: transparent;
 }
 .resto__3__title__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -4387,7 +4367,7 @@ footer .contact {
   height: 5rem;
 }
 .resto__4__title__name p {
-  font-family: "shrikhand", "cursive";
+  font-family: "Shrikhand", "cursive";
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -4406,8 +4386,6 @@ footer .contact {
   height: 100%;
   width: 3rem;
   font-size: 1.5rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .resto__4__title__like .fa-heart {
@@ -4431,6 +4409,8 @@ footer .contact {
   color: transparent;
 }
 .resto__4__title__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -5880,7 +5860,7 @@ footer .contact {
   }
 }
 .howto__restaurant__number {
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   color: #fff;
   font-weight: 700;
   font-size: 0.8rem;
@@ -6074,7 +6054,7 @@ footer .contact {
   }
 }
 .howto__menu__number {
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   color: #fff;
   font-weight: 700;
   font-size: 0.8rem;
@@ -6268,7 +6248,7 @@ footer .contact {
   }
 }
 .howto__eat__number {
-  font-family: "roboto", "sans-serif";
+  font-family: "Roboto", "sans-serif";
   color: #fff;
   font-weight: 700;
   font-size: 0.8rem;
@@ -6615,8 +6595,6 @@ footer .contact {
   width: 4rem;
   height: 100%;
   font-size: 2rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .restaurant__1__like .fa-heart {
@@ -6649,6 +6627,8 @@ footer .contact {
   color: transparent;
 }
 .restaurant__1__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -6782,8 +6762,6 @@ footer .contact {
   width: 4rem;
   height: 100%;
   font-size: 2rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .restaurant__2__like .fa-heart {
@@ -6816,6 +6794,8 @@ footer .contact {
   color: transparent;
 }
 .restaurant__2__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -6949,8 +6929,6 @@ footer .contact {
   width: 4rem;
   height: 100%;
   font-size: 2rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .restaurant__3__like .fa-heart {
@@ -6983,6 +6961,8 @@ footer .contact {
   color: transparent;
 }
 .restaurant__3__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -7116,8 +7096,6 @@ footer .contact {
   width: 4rem;
   height: 100%;
   font-size: 2rem;
-  -webkit-transition: all 400ms ease-in-out;
-  transition: all 400ms ease-in-out;
   cursor: pointer;
 }
 .restaurant__4__like .fa-heart {
@@ -7150,6 +7128,8 @@ footer .contact {
   color: transparent;
 }
 .restaurant__4__like .heart-2:active {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);

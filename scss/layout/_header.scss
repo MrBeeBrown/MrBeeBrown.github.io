@@ -8,14 +8,14 @@
   box-shadow: 0px 5px 5px #000;
   background-color: colors.$white-font;
   p {
-    font-family: "shrikhand", "cursive";
+    font-family: "Shrikhand", "cursive";
     font-size: 2rem;
   }
   @include mixins.for-tablet {
     z-index: 1;
     height: 6rem;
     p {
-      font-family: "shrikhand", "cursive";
+      font-family: "Shrikhand", "cursive";
       font-size: 3rem;
     }
   }
@@ -23,7 +23,7 @@
     z-index: 1;
     height: 8rem;
     p {
-      font-family: "shrikhand", "cursive";
+      font-family: "Shrikhand", "cursive";
       font-size: 4rem;
     }
   }
@@ -47,7 +47,7 @@
     }
   }
   p {
-    font-family: "shrikhand", "cursive";
+    font-family: "Shrikhand", "cursive";
     font-size: 2rem;
   }
 }
